@@ -1,0 +1,44 @@
+- Arquivo de configuração encontrado!
+ - Arquivos objetos necessários do professor existem na pasta Gabarito-obj.
+
+#######################################
+ALUNO: HeitorValim
+#######################################
+
+CRIANDO O DIRETÓRIO DE RESULTADO PARA HeitorValim:
+ - Diretório Resultados/HeitorValim criado com sucesso!
+ - Arquivos criados: ok!
+
+CHECKANDO OS ARQUIVOS DO ALUNO:
+ - Arquivo esperado 'Respostas/HeitorValim/main.c' não encontrado!
+ - Arquivos esperados enviados: Faltando!
+
+COPIANDO OS ARQUIVOS PARA A PASTA DE RESULTADO DO ALUNO:
+ - Copiando Arquivos Extras do Aluno:
+ - Arquivos copiados: ok!
+
+COMPILANDO OS ARQUIVOS NA PASTA DE RESULTADO DO ALUNO:
+ - Arquivos Compilados: ok!
+
+LINKANDO OS ARQUIVOS COMPILADOS:
+
+EXECUTANDO O PROGRAMA EM CADA CASO:
+
+#######################################
+RESULTADOS FINAIS
+#######################################
+
+----------------------------------------------------------------------------
+Aluno: HeitorValim
+ - Arquivos Esperados Corretos: 0 de 1
+ - Pastas Compiladas Corretamente: 0 de 0 
+ - Pastas Linkadas Corretamente: 0 de 0
+ - Nota de HeitorValim: 
+ - Nota de HeitorValim: 
+
+----------------------------------------------------------------------------
+
+Arquivo CSV Resultado.csv com os resultados finais foi gerado na pasta raíz!
+
+
+

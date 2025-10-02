@@ -1,0 +1,8 @@
+Arquivos Esperados Corretos: 0 de 1
+Pastas Compiladas Corretamente: 1 de 1 
+Pastas Linkadas Corretamente: 1 de 1
+Teste completo
+  - Resultados corretos: 0 de 144
+Nota de heitor para o teste completo: 0
+Nota de heitor: 0+(0)
+Nota de heitor: 0
