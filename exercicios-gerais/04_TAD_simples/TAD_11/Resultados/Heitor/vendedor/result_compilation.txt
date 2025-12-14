@@ -1,0 +1,4 @@
+vendedor.c: In function ‘GetTotalRecebido’:
+vendedor.c:34:30: warning: unused variable ‘valor’ [-Wunused-variable]
+   34 |     float comissao, salario, valor;
+      |                              ^~~~~

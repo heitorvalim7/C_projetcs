@@ -1,0 +1,4 @@
+main.c: In function ‘main’:
+main.c:15:13: warning: implicit declaration of function ‘EhIgual’ [-Wimplicit-function-declaration]
+   15 |     while( !EhIgual(&data, &dataFim) ){
+      |             ^~~~~~~

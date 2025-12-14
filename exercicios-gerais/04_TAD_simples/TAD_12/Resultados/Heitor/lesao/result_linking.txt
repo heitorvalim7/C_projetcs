@@ -1,0 +1,5 @@
+/usr/bin/ld: Resultados/Heitor/lesao/paciente.o: in function `qtdLesoesCirurgicasPaciente':
+paciente.c:(.text+0x626): undefined reference to `verificaCirurgicaLesao'
+/usr/bin/ld: Resultados/Heitor/lesao/paciente.o: in function `imprimePaciente':
+paciente.c:(.text+0x7f2): undefined reference to `imprimeIdLesao'
+collect2: error: ld returned 1 exit status

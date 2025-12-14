@@ -1,0 +1,15 @@
+==8685== Memcheck, a memory error detector
+==8685== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==8685== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==8685== Command: Resultados/heitor/evento/prog Resultados/heitor/evento/Casos/7
+==8685== Parent PID: 8684
+==8685== 
+==8685== 
+==8685== HEAP SUMMARY:
+==8685==     in use at exit: 0 bytes in 0 blocks
+==8685==   total heap usage: 2 allocs, 2 frees, 8,192 bytes allocated
+==8685== 
+==8685== All heap blocks were freed -- no leaks are possible
+==8685== 
+==8685== For lists of detected and suppressed errors, rerun with: -s
+==8685== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

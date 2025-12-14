@@ -1,0 +1,24 @@
+==71119== Memcheck, a memory error detector
+==71119== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==71119== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==71119== Command: Resultados/heito/locadora/prog Resultados/heito/locadora/Casos/10
+==71119== Parent PID: 71118
+==71119== 
+==71119== Invalid read of size 4
+==71119==    at 0x1097E6: AlugarFilmesLocadora (in /home/hvb7/Downloads/exercicios-gerais/07_TAD_opaco/TAD_opac_03/Resultados/heito/locadora/prog)
+==71119==    by 0x109A0A: LerAluguelLocadora (in /home/hvb7/Downloads/exercicios-gerais/07_TAD_opaco/TAD_opac_03/Resultados/heito/locadora/prog)
+==71119==    by 0x109EFC: main (in /home/hvb7/Downloads/exercicios-gerais/07_TAD_opaco/TAD_opac_03/Resultados/heito/locadora/prog)
+==71119==  Address 0x4a813d4 is 0 bytes after a block of size 4 alloc'd
+==71119==    at 0x484DB80: realloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==71119==    by 0x109934: LerAluguelLocadora (in /home/hvb7/Downloads/exercicios-gerais/07_TAD_opaco/TAD_opac_03/Resultados/heito/locadora/prog)
+==71119==    by 0x109EFC: main (in /home/hvb7/Downloads/exercicios-gerais/07_TAD_opaco/TAD_opac_03/Resultados/heito/locadora/prog)
+==71119== 
+==71119== 
+==71119== HEAP SUMMARY:
+==71119==     in use at exit: 0 bytes in 0 blocks
+==71119==   total heap usage: 15 allocs, 15 frees, 8,344 bytes allocated
+==71119== 
+==71119== All heap blocks were freed -- no leaks are possible
+==71119== 
+==71119== For lists of detected and suppressed errors, rerun with: -s
+==71119== ERROR SUMMARY: 1 errors from 1 contexts (suppressed: 0 from 0)

@@ -1,0 +1,4 @@
+filme.c: In function ‘LeFilme’:
+filme.c:35:10: warning: unused variable ‘lixo’ [-Wunused-variable]
+   35 |     char lixo;
+      |          ^~~~

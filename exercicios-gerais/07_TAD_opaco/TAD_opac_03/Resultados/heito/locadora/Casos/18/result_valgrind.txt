@@ -1,0 +1,33 @@
+==72216== Memcheck, a memory error detector
+==72216== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==72216== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==72216== Command: Resultados/heito/locadora/prog Resultados/heito/locadora/Casos/18
+==72216== Parent PID: 72215
+==72216== 
+==72216== Invalid read of size 4
+==72216==    at 0x1097E6: AlugarFilmesLocadora (in /home/hvb7/Downloads/exercicios-gerais/07_TAD_opaco/TAD_opac_03/Resultados/heito/locadora/prog)
+==72216==    by 0x109A0A: LerAluguelLocadora (in /home/hvb7/Downloads/exercicios-gerais/07_TAD_opaco/TAD_opac_03/Resultados/heito/locadora/prog)
+==72216==    by 0x109EFC: main (in /home/hvb7/Downloads/exercicios-gerais/07_TAD_opaco/TAD_opac_03/Resultados/heito/locadora/prog)
+==72216==  Address 0x4a814dc is 0 bytes after a block of size 12 alloc'd
+==72216==    at 0x484DB80: realloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==72216==    by 0x109934: LerAluguelLocadora (in /home/hvb7/Downloads/exercicios-gerais/07_TAD_opaco/TAD_opac_03/Resultados/heito/locadora/prog)
+==72216==    by 0x109EFC: main (in /home/hvb7/Downloads/exercicios-gerais/07_TAD_opaco/TAD_opac_03/Resultados/heito/locadora/prog)
+==72216== 
+==72216== Invalid read of size 4
+==72216==    at 0x109A51: DevolverFilmesLocadora (in /home/hvb7/Downloads/exercicios-gerais/07_TAD_opaco/TAD_opac_03/Resultados/heito/locadora/prog)
+==72216==    by 0x109C0F: LerDevolucaoLocadora (in /home/hvb7/Downloads/exercicios-gerais/07_TAD_opaco/TAD_opac_03/Resultados/heito/locadora/prog)
+==72216==    by 0x109F31: main (in /home/hvb7/Downloads/exercicios-gerais/07_TAD_opaco/TAD_opac_03/Resultados/heito/locadora/prog)
+==72216==  Address 0x4a8161c is 0 bytes after a block of size 12 alloc'd
+==72216==    at 0x484DB80: realloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==72216==    by 0x109BC7: LerDevolucaoLocadora (in /home/hvb7/Downloads/exercicios-gerais/07_TAD_opaco/TAD_opac_03/Resultados/heito/locadora/prog)
+==72216==    by 0x109F31: main (in /home/hvb7/Downloads/exercicios-gerais/07_TAD_opaco/TAD_opac_03/Resultados/heito/locadora/prog)
+==72216== 
+==72216== 
+==72216== HEAP SUMMARY:
+==72216==     in use at exit: 0 bytes in 0 blocks
+==72216==   total heap usage: 38 allocs, 38 frees, 8,656 bytes allocated
+==72216== 
+==72216== All heap blocks were freed -- no leaks are possible
+==72216== 
+==72216== For lists of detected and suppressed errors, rerun with: -s
+==72216== ERROR SUMMARY: 47 errors from 2 contexts (suppressed: 0 from 0)

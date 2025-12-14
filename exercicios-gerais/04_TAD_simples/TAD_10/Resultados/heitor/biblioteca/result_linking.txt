@@ -1,0 +1,6 @@
+/usr/bin/ld: Resultados/heitor/biblioteca/main.o: in function `main':
+main.c:(.text+0x80): undefined reference to `inicializarBiblioteca'
+/usr/bin/ld: main.c:(.text+0x222): undefined reference to `adicionarLivroNaBiblioteca'
+/usr/bin/ld: main.c:(.text+0x2c0): undefined reference to `removerLivroDaBiblioteca'
+/usr/bin/ld: main.c:(.text+0x32b): undefined reference to `listarLivrosDaBiblioteca'
+collect2: error: ld returned 1 exit status

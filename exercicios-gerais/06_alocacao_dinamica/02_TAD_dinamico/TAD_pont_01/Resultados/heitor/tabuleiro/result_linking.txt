@@ -1,0 +1,21 @@
+/usr/bin/ld: Resultados/heitor/tabuleiro/jogador.o: in function `JogaJogador':
+jogador.c:(.text+0x13d): undefined reference to `EhPosicaoValidaTabuleiro'
+/usr/bin/ld: jogador.c:(.text+0x15a): undefined reference to `EstaLivrePosicaoTabuleiro'
+/usr/bin/ld: jogador.c:(.text+0x1fc): undefined reference to `MarcaPosicaoTabuleiro'
+/usr/bin/ld: Resultados/heitor/tabuleiro/jogador.o: in function `VenceuJogador':
+jogador.c:(.text+0x254): undefined reference to `EstaMarcadaPosicaoPecaTabuleiro'
+/usr/bin/ld: jogador.c:(.text+0x273): undefined reference to `EstaMarcadaPosicaoPecaTabuleiro'
+/usr/bin/ld: jogador.c:(.text+0x292): undefined reference to `EstaMarcadaPosicaoPecaTabuleiro'
+/usr/bin/ld: jogador.c:(.text+0x2bb): undefined reference to `EstaMarcadaPosicaoPecaTabuleiro'
+/usr/bin/ld: jogador.c:(.text+0x2da): undefined reference to `EstaMarcadaPosicaoPecaTabuleiro'
+/usr/bin/ld: Resultados/heitor/tabuleiro/jogador.o:jogador.c:(.text+0x2f9): more undefined references to `EstaMarcadaPosicaoPecaTabuleiro' follow
+/usr/bin/ld: Resultados/heitor/tabuleiro/jogo.o: in function `CriaJogo':
+jogo.c:(.text+0x45): undefined reference to `CriaTabuleiro'
+/usr/bin/ld: Resultados/heitor/tabuleiro/jogo.o: in function `DestroiJogo':
+jogo.c:(.text+0x95): undefined reference to `DestroiTabuleiro'
+/usr/bin/ld: Resultados/heitor/tabuleiro/jogo.o: in function `ComecaJogo':
+jogo.c:(.text+0x128): undefined reference to `ImprimeTabuleiro'
+/usr/bin/ld: jogo.c:(.text+0x184): undefined reference to `ImprimeTabuleiro'
+/usr/bin/ld: Resultados/heitor/tabuleiro/jogo.o: in function `AcabouJogo':
+jogo.c:(.text+0x1fe): undefined reference to `TemPosicaoLivreTabuleiro'
+collect2: error: ld returned 1 exit status

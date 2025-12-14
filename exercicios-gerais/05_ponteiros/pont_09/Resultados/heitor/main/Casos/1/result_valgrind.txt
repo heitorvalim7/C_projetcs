@@ -1,0 +1,15 @@
+==7572== Memcheck, a memory error detector
+==7572== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==7572== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==7572== Command: Resultados/heitor/main/prog Resultados/heitor/main/Casos/1
+==7572== Parent PID: 7571
+==7572== 
+==7572== 
+==7572== HEAP SUMMARY:
+==7572==     in use at exit: 0 bytes in 0 blocks
+==7572==   total heap usage: 2 allocs, 2 frees, 8,192 bytes allocated
+==7572== 
+==7572== All heap blocks were freed -- no leaks are possible
+==7572== 
+==7572== For lists of detected and suppressed errors, rerun with: -s
+==7572== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

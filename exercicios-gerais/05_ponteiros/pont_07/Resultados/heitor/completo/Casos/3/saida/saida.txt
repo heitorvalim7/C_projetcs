@@ -1,0 +1,11 @@
+
+===== Menu =====
+1 - Cadastrar um evento
+2 - Exibir todos os eventos
+3 - Trocar data de um evento
+4 - Trocar a posicao entre dois eventos
+5 - Sair
+Indice invalido!Opcao invalida!
+Opcao invalida!
+Opcao invalida!
+Indices invalidos!Saindo...

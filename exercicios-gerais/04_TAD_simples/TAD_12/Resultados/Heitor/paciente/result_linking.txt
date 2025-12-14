@@ -1,0 +1,6 @@
+/usr/bin/ld: Resultados/Heitor/paciente/main.o: in function `criaRelatorio':
+main.c:(.text+0x4f1): undefined reference to `calculaIdadePaciente'
+/usr/bin/ld: main.c:(.text+0x547): undefined reference to `getNumLesoesPaciente'
+/usr/bin/ld: main.c:(.text+0x597): undefined reference to `qtdLesoesCirurgicasPaciente'
+/usr/bin/ld: main.c:(.text+0x67c): undefined reference to `imprimePaciente'
+collect2: error: ld returned 1 exit status

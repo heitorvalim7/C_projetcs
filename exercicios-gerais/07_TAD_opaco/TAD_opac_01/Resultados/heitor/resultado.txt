@@ -1,0 +1,29 @@
+Arquivos Esperados Corretos: 6 de 9
+Pastas Compiladas Corretamente: 3 de 6 
+Pastas Linkadas Corretamente: 2 de 6
+Teste main
+  - Resultados corretos: 0 de 6
+  - Valgrinds corretos: 0 de 6
+Nota de heitor para o teste main: 0
+Teste completo
+  - Resultados corretos: 0 de 6
+  - Valgrinds corretos: 0 de 6
+Nota de heitor para o teste completo: 0
+Teste jogada
+  - Resultados corretos: 6 de 6
+  - Valgrinds corretos: 6 de 6
+Nota de heitor para o teste jogada: 1.67
+Teste jogador
+  - Resultados corretos: 0 de 6
+  - Valgrinds corretos: 0 de 6
+Nota de heitor para o teste jogador: 0
+Teste tabuleiro
+  - Resultados corretos: 6 de 6
+  - Valgrinds corretos: 6 de 6
+Nota de heitor para o teste tabuleiro: 1.67
+Teste jogo
+  - Resultados corretos: 0 de 6
+  - Valgrinds corretos: 0 de 6
+Nota de heitor para o teste jogo: 0
+Nota de heitor: 0+(0)+(1.67)+(1.67)+(0)+(0)+(0)
+Nota de heitor: 3.34

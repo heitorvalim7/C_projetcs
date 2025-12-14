@@ -1,0 +1,21 @@
+Arquivos Esperados Corretos: 7 de 7
+Pastas Compiladas Corretamente: 4 de 4 
+Pastas Linkadas Corretamente: 1 de 4
+Teste main
+  - Resultados corretos: 0 de 6
+  - Valgrinds corretos: 6 de 6
+Nota de Heitor para o teste main: 0
+Teste paciente
+  - Resultados corretos: 0 de 6
+  - Valgrinds corretos: 0 de 6
+Nota de Heitor para o teste paciente: 0
+Teste lesao
+  - Resultados corretos: 0 de 6
+  - Valgrinds corretos: 0 de 6
+Nota de Heitor para o teste lesao: 0
+Teste data
+  - Resultados corretos: 0 de 6
+  - Valgrinds corretos: 0 de 6
+Nota de Heitor para o teste data: 0
+Nota de Heitor: 0+(0)+(0)+(0)+(0)
+Nota de Heitor: 0

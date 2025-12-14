@@ -1,0 +1,1 @@
+valgrind: Resultados/Heitor/paciente/prog: No such file or directory

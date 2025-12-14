@@ -1,0 +1,6 @@
+==4174== Memcheck, a memory error detector
+==4174== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==4174== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==4174== Command: Resultados/Heitor/main/prog Resultados/Heitor/main/Casos/4
+==4174== Parent PID: 4173
+==4174== 

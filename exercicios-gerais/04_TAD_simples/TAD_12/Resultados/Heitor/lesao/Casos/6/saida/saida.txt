@@ -1,0 +1,1 @@
+valgrind: Resultados/Heitor/lesao/prog: No such file or directory

@@ -1,0 +1,21 @@
+Arquivos Esperados Corretos: 4 de 5
+Pastas Compiladas Corretamente: 3 de 4 
+Pastas Linkadas Corretamente: 2 de 4
+Teste main
+  - Resultados corretos: 0 de 19
+  - Valgrinds corretos: 0 de 19
+Nota de heito para o teste main: 0
+Teste completo
+  - Resultados corretos: 0 de 19
+  - Valgrinds corretos: 0 de 19
+Nota de heito para o teste completo: 0
+Teste locadora
+  - Resultados corretos: 5 de 19
+  - Valgrinds corretos: 9 de 19
+Nota de heito para o teste locadora: .65
+Teste filme
+  - Resultados corretos: 19 de 19
+  - Valgrinds corretos: 19 de 19
+Nota de heito para o teste filme: 2.50
+Nota de heito: 0+(.65)+(0)+(0)+(2.50)
+Nota de heito: 3.15

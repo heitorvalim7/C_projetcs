@@ -1,0 +1,322 @@
+- Arquivo de configuração encontrado!
+ - Arquivos header necessários do professor existem na pasta Includes
+ - Arquivos objetos necessários do professor existem na pasta Gabarito-obj.
+
+#######################################
+ALUNO: heitor
+#######################################
+
+CRIANDO O DIRETÓRIO DE RESULTADO PARA heitor:
+ - Diretório Resultados/heitor criado com sucesso!
+ - Diretório Resultados/heitor/main criado com sucesso!
+ - Diretório Resultados/heitor/completo criado com sucesso!
+ - Diretório Resultados/heitor/jogada criado com sucesso!
+ - Diretório Resultados/heitor/jogador criado com sucesso!
+ - Diretório Resultados/heitor/tabuleiro criado com sucesso!
+ - Diretório Resultados/heitor/jogo criado com sucesso!
+ - Arquivos criados: ok!
+
+CHECKANDO OS ARQUIVOS DO ALUNO:
+ - Arquivo esperado 'Respostas/heitor/jogada.c' encontrado!
+ - Arquivo esperado 'Respostas/heitor/jogada.h' encontrado!
+ - Arquivo esperado 'Respostas/heitor/jogador.c' encontrado!
+ - Arquivo esperado 'Respostas/heitor/jogador.h' encontrado!
+ - Arquivo esperado 'Respostas/heitor/jogo.c' não encontrado!
+ - Arquivo esperado 'Respostas/heitor/jogo.h' encontrado!
+ - Arquivo esperado 'Respostas/heitor/main.c' não encontrado!
+ - Arquivo esperado 'Respostas/heitor/tabuleiro.c' não encontrado!
+ - Arquivo esperado 'Respostas/heitor/tabuleiro.h' encontrado!
+ - Arquivos esperados enviados: Faltando!
+
+COPIANDO OS ARQUIVOS PARA A PASTA DE RESULTADO DO ALUNO:
+ - Pasta main:
+ - Copiando os Casos de teste para a pasta Resultados/heitor/main
+ - Copiando os Includes/jogada.h Includes/jogador.h Includes/jogo.h Includes/tabuleiro.h do professor para a pasta Resultados/heitor/main
+ - Copiando os Includes/*.o do professor para a pasta Resultados/heitor/main
+ - Removendo o main.o do professor da pasta Resultados/heitor/main
+ - Copiando o Respostas/heitor/main.c do aluno para a pasta Resultados/heitor/main
+ - Pasta completo:
+ - Copiando os Casos de teste para a pasta Resultados/heitor/completo
+ - Copiando os Respostas/heitor/jogada.c do aluno para a pasta Resultados/heitor/completo
+ - Copiando os Respostas/heitor/jogada.h do aluno para a pasta Resultados/heitor/completo
+ - Copiando os Respostas/heitor/jogador.c do aluno para a pasta Resultados/heitor/completo
+ - Copiando os Respostas/heitor/jogador.h do aluno para a pasta Resultados/heitor/completo
+ - Copiando os Respostas/heitor/jogo.c do aluno para a pasta Resultados/heitor/completo
+ - Copiando os Respostas/heitor/jogo.h do aluno para a pasta Resultados/heitor/completo
+ - Copiando os Respostas/heitor/main.c do aluno para a pasta Resultados/heitor/completo
+ - Copiando os Respostas/heitor/tabuleiro.c do aluno para a pasta Resultados/heitor/completo
+ - Copiando os Respostas/heitor/tabuleiro.h do aluno para a pasta Resultados/heitor/completo
+ - Pasta jogada:
+ - Copiando os Casos de teste para a pasta Resultados/heitor/jogada
+ - Copiando os Includes/jogada.h Includes/jogador.h Includes/jogo.h Includes/tabuleiro.h do professor para a pasta Resultados/heitor/jogada
+ - Copiando os Includes/*.o do professor para a pasta Resultados/heitor/jogada
+ - Removendo o jogada.o do professor da pasta Resultados/heitor/jogada
+ - Copiando o Respostas/heitor/jogada.c do aluno para a pasta Resultados/heitor/jogada
+ - Pasta jogador:
+ - Copiando os Casos de teste para a pasta Resultados/heitor/jogador
+ - Copiando os Includes/jogada.h Includes/jogador.h Includes/jogo.h Includes/tabuleiro.h do professor para a pasta Resultados/heitor/jogador
+ - Copiando os Includes/*.o do professor para a pasta Resultados/heitor/jogador
+ - Removendo o jogador.o do professor da pasta Resultados/heitor/jogador
+ - Copiando o Respostas/heitor/jogador.c do aluno para a pasta Resultados/heitor/jogador
+ - Pasta tabuleiro:
+ - Copiando os Casos de teste para a pasta Resultados/heitor/tabuleiro
+ - Copiando os Includes/jogada.h Includes/jogador.h Includes/jogo.h Includes/tabuleiro.h do professor para a pasta Resultados/heitor/tabuleiro
+ - Copiando os Includes/*.o do professor para a pasta Resultados/heitor/tabuleiro
+ - Removendo o tabuleiro.o do professor da pasta Resultados/heitor/tabuleiro
+ - Copiando o Respostas/heitor/tabuleiro.c do aluno para a pasta Resultados/heitor/tabuleiro
+ - Pasta jogo:
+ - Copiando os Casos de teste para a pasta Resultados/heitor/jogo
+ - Copiando os Includes/jogada.h Includes/jogador.h Includes/jogo.h Includes/tabuleiro.h do professor para a pasta Resultados/heitor/jogo
+ - Copiando os Includes/*.o do professor para a pasta Resultados/heitor/jogo
+ - Removendo o jogo.o do professor da pasta Resultados/heitor/jogo
+ - Copiando o Respostas/heitor/jogo.c do aluno para a pasta Resultados/heitor/jogo
+ - Copiando Arquivos Extras do Aluno:
+ - Arquivos copiados: ok!
+
+COMPILANDO OS ARQUIVOS NA PASTA DE RESULTADO DO ALUNO:
+ - Erro de compilação! Verifique os arquivos da pasta main.
+ - Compilação dos arquivos do aluno na pasta completo ok!
+ - Arquivo de output gerado: Resultados/heitor/completo/result_compilation.txt
+ - Compilação dos arquivos do aluno na pasta jogada ok!
+ - Arquivo de output gerado: Resultados/heitor/jogada/result_compilation.txt
+ - Compilação dos arquivos do aluno na pasta jogador ok!
+ - Arquivo de output gerado: Resultados/heitor/jogador/result_compilation.txt
+ - Erro de compilação! Verifique os arquivos da pasta tabuleiro.
+ - Erro de compilação! Verifique os arquivos da pasta jogo.
+ - Arquivos Compilados: Erro!: 3 arquivos com erros de compilacao.
+
+ - Arquivos Compilados: ok!
+
+LINKANDO OS ARQUIVOS COMPILADOS:
+ - Pasta main:
+ - Gerando o binário prog linkando com o(s) arquivo(s) main/*.o
+ - Arquivos Linkados: Erro! Binário prog não gerado.
+ - Arquivo de output gerado: Resultados/heitor/main/result_linking.txt
+ - Pasta completo:
+ - Gerando o binário prog linkando com o(s) arquivo(s) completo/*.o
+ - Arquivos Linkados: Erro! Binário prog não gerado.
+ - Arquivo de output gerado: Resultados/heitor/completo/result_linking.txt
+ - Pasta jogada:
+ - Gerando o binário prog linkando com o(s) arquivo(s) jogada/*.o
+ - Arquivos Linkados: Ok! Binário prog gerado com sucesso.
+ - Arquivo de output gerado: Resultados/heitor/jogada/result_linking.txt
+ - Pasta jogador:
+ - Gerando o binário prog linkando com o(s) arquivo(s) jogador/*.o
+ - Arquivos Linkados: Erro! Binário prog não gerado.
+ - Arquivo de output gerado: Resultados/heitor/jogador/result_linking.txt
+ - Pasta tabuleiro:
+ - Gerando o binário prog linkando com o(s) arquivo(s) tabuleiro/*.o
+ - Arquivos Linkados: Erro! Binário prog não gerado.
+ - Arquivo de output gerado: Resultados/heitor/tabuleiro/result_linking.txt
+ - Pasta jogo:
+ - Gerando o binário prog linkando com o(s) arquivo(s) jogo/*.o
+ - Arquivos Linkados: Erro! Binário prog não gerado.
+ - Arquivo de output gerado: Resultados/heitor/jogo/result_linking.txt
+ - Arquivos Linkados: Erro! 5 arquivos com erros de linkagem.
+
+EXECUTANDO O VALGRIND EM CADA CASO:
+ - Pasta main / Caso 1:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta main / Caso 2:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta main / Caso 3:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta main / Caso 4:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta main / Caso 5:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta main / Caso 6:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Nota para a pasta main (máximo 1.66) - 0 de 60 - 0% de 1.66: 0.
+ -----
+ - Pasta completo / Caso 1:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta completo / Caso 2:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta completo / Caso 3:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta completo / Caso 4:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta completo / Caso 5:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta completo / Caso 6:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Nota para a pasta completo (máximo 1.66) - 0 de 60 - 0% de 1.66: 0.
+ -----
+ - Pasta jogada / Caso 1:
+ - Arquivo de output gerado: Resultados/heitor/jogada/Casos/1/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 79, frees: 79, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta jogada / Caso 2:
+ - Arquivo de output gerado: Resultados/heitor/jogada/Casos/2/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 68, frees: 68, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta jogada / Caso 3:
+ - Arquivo de output gerado: Resultados/heitor/jogada/Casos/3/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 47, frees: 47, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta jogada / Caso 4:
+ - Arquivo de output gerado: Resultados/heitor/jogada/Casos/4/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 49, frees: 49, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta jogada / Caso 5:
+ - Arquivo de output gerado: Resultados/heitor/jogada/Casos/5/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 79, frees: 79, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta jogada / Caso 6:
+ - Arquivo de output gerado: Resultados/heitor/jogada/Casos/6/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 132, frees: 132, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Nota para a pasta jogada (máximo 1.67) - 60.00 de 60 - 100.00% de 1.67: 1.67.
+ -----
+ - Pasta jogador / Caso 1:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta jogador / Caso 2:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta jogador / Caso 3:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta jogador / Caso 4:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta jogador / Caso 5:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta jogador / Caso 6:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Nota para a pasta jogador (máximo 1.67) - 0 de 60 - 0% de 1.67: 0.
+ -----
+ - Pasta tabuleiro / Caso 1:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta tabuleiro / Caso 2:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta tabuleiro / Caso 3:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta tabuleiro / Caso 4:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta tabuleiro / Caso 5:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta tabuleiro / Caso 6:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Nota para a pasta tabuleiro (máximo 1.67) - 0 de 60 - 0% de 1.67: 0.
+ -----
+ - Pasta jogo / Caso 1:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta jogo / Caso 2:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta jogo / Caso 3:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta jogo / Caso 4:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta jogo / Caso 5:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Pasta jogo / Caso 6:
+ - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
+ - Resultado para o saida.txt: Incorreto! Peso: 0.0
+ - Nota para o Caso (soma dos pesos): 0 (soma total) - 50.0% (desconto do valgrind) = 0 de 10 pontos.
+ - Nota para a pasta jogo (máximo 1.67) - 0 de 60 - 0% de 1.67: 0.
+ -----
+
+#######################################
+RESULTADOS FINAIS
+#######################################
+
+----------------------------------------------------------------------------
+Aluno: heitor
+ - Arquivos Esperados Corretos: 6 de 9
+ - Pastas Compiladas Corretamente: 3 de 6 
+ - Pastas Linkadas Corretamente: 1 de 6
+ - Teste main
+ - Resultados corretos: 0 de 6
+ - Valgrinds corretos: 0 de 6
+ - Nota de heitor para o teste main: 0
+ - Teste completo
+ - Resultados corretos: 0 de 6
+ - Valgrinds corretos: 0 de 6
+ - Nota de heitor para o teste completo: 0
+ - Teste jogada
+ - Resultados corretos: 6 de 6
+ - Valgrinds corretos: 6 de 6
+ - Nota de heitor para o teste jogada: 1.67
+ - Teste jogador
+ - Resultados corretos: 0 de 6
+ - Valgrinds corretos: 0 de 6
+ - Nota de heitor para o teste jogador: 0
+ - Teste tabuleiro
+ - Resultados corretos: 0 de 6
+ - Valgrinds corretos: 0 de 6
+ - Nota de heitor para o teste tabuleiro: 0
+ - Teste jogo
+ - Resultados corretos: 0 de 6
+ - Valgrinds corretos: 0 de 6
+ - Nota de heitor para o teste jogo: 0
+ - Nota de heitor: 0+(0)+(0)+(1.67)+(0)+(0)+(0)
+ - Nota de heitor: 1.67
+
+----------------------------------------------------------------------------
+
+Arquivo CSV Resultado.csv com os resultados finais foi gerado na pasta raíz!
+
+
+

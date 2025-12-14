@@ -1,0 +1,3 @@
+/usr/bin/ld: Resultados/Heitor/data/paciente.o: in function `calculaIdadePaciente':
+paciente.c:(.text+0x464): undefined reference to `diferencaAnoData'
+collect2: error: ld returned 1 exit status

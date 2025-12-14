@@ -1,0 +1,33 @@
+Filme cadastrado 2 - Tomb Raider
+Filme cadastrado 3 - Sword Fish
+
+Total de filmes alugados: 0 com custo de R$0
+
+~ESTOQUE~
+3 - Sword Fish Fitas em estoque: 1
+2 - Tomb Raider Fitas em estoque: 1
+
+Filme cadastrado 4 - Shrek
+Filme cadastrado 1 - Donnie Darko
+
+~ESTOQUE~
+1 - Donnie Darko Fitas em estoque: 2
+4 - Shrek Fitas em estoque: 1
+3 - Sword Fish Fitas em estoque: 1
+2 - Tomb Raider Fitas em estoque: 1
+
+Total de filmes alugados: 0 com custo de R$0
+
+Total de filmes alugados: 0 com custo de R$0
+
+
+Total de filmes alugados: 0 com custo de R$0
+
+Total de filmes alugados: 0 com custo de R$0
+
+
+~ESTOQUE~
+1 - Donnie Darko Fitas em estoque: 2
+4 - Shrek Fitas em estoque: 1
+3 - Sword Fish Fitas em estoque: 1
+2 - Tomb Raider Fitas em estoque: 1

@@ -1,0 +1,15 @@
+==27821== Memcheck, a memory error detector
+==27821== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==27821== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==27821== Command: Resultados/heitor/vetor/prog Resultados/heitor/vetor/Casos/2
+==27821== Parent PID: 27820
+==27821== 
+==27821== 
+==27821== HEAP SUMMARY:
+==27821==     in use at exit: 0 bytes in 0 blocks
+==27821==   total heap usage: 2 allocs, 2 frees, 8,192 bytes allocated
+==27821== 
+==27821== All heap blocks were freed -- no leaks are possible
+==27821== 
+==27821== For lists of detected and suppressed errors, rerun with: -s
+==27821== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

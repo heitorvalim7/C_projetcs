@@ -1,0 +1,23 @@
+vetor.c: In function ‘LeDadosParaVetor’:
+vetor.c:5:9: warning: implicit declaration of function ‘scanf’ [-Wimplicit-function-declaration]
+    5 |         scanf("%d", vet+i);
+      |         ^~~~~
+vetor.c:2:1: note: include ‘<stdio.h>’ or provide a declaration of ‘scanf’
+    1 | #include "vetor.h"
+  +++ |+#include <stdio.h>
+    2 | 
+vetor.c:5:9: warning: incompatible implicit declaration of built-in function ‘scanf’ [-Wbuiltin-declaration-mismatch]
+    5 |         scanf("%d", vet+i);
+      |         ^~~~~
+vetor.c:5:9: note: include ‘<stdio.h>’ or provide a declaration of ‘scanf’
+vetor.c: In function ‘ImprimeDadosDoVetor’:
+vetor.c:11:9: warning: implicit declaration of function ‘printf’ [-Wimplicit-function-declaration]
+   11 |         printf("%d ", *(n+i));
+      |         ^~~~~~
+vetor.c:11:9: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+vetor.c:11:9: warning: incompatible implicit declaration of built-in function ‘printf’ [-Wbuiltin-declaration-mismatch]
+vetor.c:11:9: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
+vetor.c:13:5: warning: incompatible implicit declaration of built-in function ‘printf’ [-Wbuiltin-declaration-mismatch]
+   13 |     printf("\n");
+      |     ^~~~~~
+vetor.c:13:5: note: include ‘<stdio.h>’ or provide a declaration of ‘printf’
