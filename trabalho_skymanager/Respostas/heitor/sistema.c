@@ -27,17 +27,13 @@ int sistemaProcessaReserva(void *ptr_sistema, void *ptr_voos, Reserva *reserva) 
     char *cpf = getCPFSolicitanteReserva(reserva);
     char *codVoo = getCodigoVooReserva(reserva);
 
-    if (!sistemaVerificaDadosCadastrados(s, cpf, codVoo)) {
+    if (sistemaVerificaDadosCadastrados(s, cpf, codVoo)) {
         setStatusReserva(reserva, "CANCELADA"); 
         setPrecoReserva(reserva, 0.00);
         return 0;
     }
 
     Passageiro *p = sistemaBuscaPassageiroPorCpf(s, cpf);
-    if (!p) {
-        setStatusReserva(reserva, "CANCELADA"); 
-        return 0;
-    }
 
     setStatusReserva(reserva, "CONFIRMADA"); 
     float precoFinal = sistemaCalculaPrecoReserva(s, reserva, p);
@@ -50,6 +46,7 @@ float sistemaCalculaPrecoReserva(Sistema *s, Reserva *reserva, Passageiro *passa
     if (!s || !reserva) return 0;
     char tipo = getTipoReserva(reserva);
     char *codigoVoo = getCodigoVooReserva(reserva);
+    char *programaPassageiro = getProgramaPassageiro(passageiro);
     Voo *voo = sistemaBuscaVooPorCodigo(s, codigoVoo);
     int numeroBagagens;
     if (!voo) return 0; 
@@ -64,7 +61,17 @@ float sistemaCalculaPrecoReserva(Sistema *s, Reserva *reserva, Passageiro *passa
         numeroBagagens = getNumBagagensEconomica(getDadoReserva(reserva));
         precoBase *= 1.0f;
     }
+
+    if(strcmp(programaPassageiro, "OURO") == 0){
+        precoBase *= 0.95f; 
+    }
+    else if(strcmp(programaPassageiro, "PRATA") == 0){
+        precoBase *= 0.98f; 
+    }
+
     precoBase += numeroBagagens * 50;
+    
+
     
     return precoBase;
 }

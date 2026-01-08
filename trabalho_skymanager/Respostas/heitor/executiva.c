@@ -24,8 +24,8 @@ Executiva *leExecutiva(){
     char acesso[TAM_ASSENTO_ESPECIAL];
     char refeicao[TAM_ASSENTO_ESPECIAL];
     if (scanf("%d", &nBagagens) != 1) return NULL;
-    if (scanf("%s", acesso) != 1) return NULL;
     if (scanf("%s", refeicao) != 1) return NULL;
+    if (scanf("%s", acesso) != 1) return NULL;
     return criaExecutiva(nBagagens, acesso, refeicao);
 }
 

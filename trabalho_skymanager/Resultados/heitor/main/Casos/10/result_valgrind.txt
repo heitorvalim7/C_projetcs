@@ -1,15 +1,45 @@
-==267443== Memcheck, a memory error detector
-==267443== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
-==267443== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
-==267443== Command: Resultados/heitor/main/prog Resultados/heitor/main/Casos/10
-==267443== Parent PID: 267442
-==267443== 
-==267443== 
-==267443== HEAP SUMMARY:
-==267443==     in use at exit: 0 bytes in 0 blocks
-==267443==   total heap usage: 584 allocs, 584 frees, 26,806 bytes allocated
-==267443== 
-==267443== All heap blocks were freed -- no leaks are possible
-==267443== 
-==267443== For lists of detected and suppressed errors, rerun with: -s
-==267443== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+==23362== Memcheck, a memory error detector
+==23362== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==23362== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==23362== Command: Resultados/heitor/main/prog Resultados/heitor/main/Casos/10
+==23362== Parent PID: 23361
+==23362== 
+==23362== Invalid read of size 1
+==23362==    at 0x4850364: strcmp (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==23362==    by 0x10B674: sistemaCalculaPrecoReserva (in /home/hvb7/C_projetcs/trabalho_skymanager/Resultados/heitor/main/prog)
+==23362==    by 0x10B524: sistemaProcessaReserva (in /home/hvb7/C_projetcs/trabalho_skymanager/Resultados/heitor/main/prog)
+==23362==    by 0x10B2AC: processaReserva (in /home/hvb7/C_projetcs/trabalho_skymanager/Resultados/heitor/main/prog)
+==23362==    by 0x109FF6: processaReservasNaFila (in /home/hvb7/C_projetcs/trabalho_skymanager/Resultados/heitor/main/prog)
+==23362==    by 0x10A1A4: main (in /home/hvb7/C_projetcs/trabalho_skymanager/Resultados/heitor/main/prog)
+==23362==  Address 0x0 is not stack'd, malloc'd or (recently) free'd
+==23362== 
+==23362== 
+==23362== Process terminating with default action of signal 11 (SIGSEGV)
+==23362==  Access not within mapped region at address 0x0
+==23362==    at 0x4850364: strcmp (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==23362==    by 0x10B674: sistemaCalculaPrecoReserva (in /home/hvb7/C_projetcs/trabalho_skymanager/Resultados/heitor/main/prog)
+==23362==    by 0x10B524: sistemaProcessaReserva (in /home/hvb7/C_projetcs/trabalho_skymanager/Resultados/heitor/main/prog)
+==23362==    by 0x10B2AC: processaReserva (in /home/hvb7/C_projetcs/trabalho_skymanager/Resultados/heitor/main/prog)
+==23362==    by 0x109FF6: processaReservasNaFila (in /home/hvb7/C_projetcs/trabalho_skymanager/Resultados/heitor/main/prog)
+==23362==    by 0x10A1A4: main (in /home/hvb7/C_projetcs/trabalho_skymanager/Resultados/heitor/main/prog)
+==23362==  If you believe this happened as a result of a stack
+==23362==  overflow in your program's main thread (unlikely but
+==23362==  possible), you can try to increase the size of the
+==23362==  main thread stack using the --main-stacksize= flag.
+==23362==  The main thread stack size used in this run was 8388608.
+==23362== 
+==23362== HEAP SUMMARY:
+==23362==     in use at exit: 15,431 bytes in 493 blocks
+==23362==   total heap usage: 583 allocs, 90 frees, 22,710 bytes allocated
+==23362== 
+==23362== LEAK SUMMARY:
+==23362==    definitely lost: 0 bytes in 0 blocks
+==23362==    indirectly lost: 0 bytes in 0 blocks
+==23362==      possibly lost: 0 bytes in 0 blocks
+==23362==    still reachable: 15,431 bytes in 493 blocks
+==23362==         suppressed: 0 bytes in 0 blocks
+==23362== Reachable blocks (those to which a pointer was found) are not shown.
+==23362== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==23362== 
+==23362== For lists of detected and suppressed errors, rerun with: -s
+==23362== ERROR SUMMARY: 1 errors from 1 contexts (suppressed: 0 from 0)

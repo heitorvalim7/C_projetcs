@@ -47,7 +47,7 @@
 - Preco: 0.00
 - Tipo: EXECUTIVA
 - Numero de Bagagens: 1
-- Refeicao Especial: NAO
-- Acesso ao Lounge: SIM
+- Refeicao Especial: SIM
+- Acesso ao Lounge: NAO
 ===============================
 ================================
