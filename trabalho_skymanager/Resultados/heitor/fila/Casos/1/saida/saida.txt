@@ -1,0 +1,178 @@
+================================
+===== Banco de Passageiros =====
+================================
+- Nome: EKKO ARAUJO
+- CPF: 346.578.713-74
+- Data de Nascimento: 1/5/1970
+- Telefone: (13)99638-4770
+- Genero: OUTROS
+- Classe: OURO
+- Reservas Confirmadas: 0
+======================
+- Nome: ZED MENDES
+- CPF: 010.310.518-21
+- Data de Nascimento: 7/1/2000
+- Telefone: (73)93510-9834
+- Genero: MASCULINO
+- Classe: BRONZE
+- Reservas Confirmadas: 0
+======================
+- Nome: GANDALF ALMEIDA
+- CPF: 997.376.311-45
+- Data de Nascimento: 14/10/1971
+- Telefone: (65)96735-8651
+- Genero: OUTROS
+- Classe: OURO
+- Reservas Confirmadas: 0
+======================
+- Nome: SAKURA BARBOSA
+- CPF: 106.513.338-30
+- Data de Nascimento: 6/11/1977
+- Telefone: (34)94563-8579
+- Genero: MASCULINO
+- Classe: OURO
+- Reservas Confirmadas: 0
+======================
+- Nome: VEGETA SILVA
+- CPF: 781.080.132-59
+- Data de Nascimento: 9/3/1983
+- Telefone: (38)96570-1960
+- Genero: MASCULINO
+- Classe: PRATA
+- Reservas Confirmadas: 0
+======================
+- Nome: DARIUS FARIA
+- CPF: 064.746.872-74
+- Data de Nascimento: 13/7/1959
+- Telefone: (18)99489-9883
+- Genero: MASCULINO
+- Classe: BRONZE
+- Reservas Confirmadas: 0
+======================
+- Nome: ZENITSU ARAUJO
+- CPF: 500.978.820-97
+- Data de Nascimento: 17/5/2016
+- Telefone: (34)91122-2113
+- Genero: OUTROS
+- Classe: OURO
+- Reservas Confirmadas: 0
+======================
+- Nome: VEGETA GOMES
+- CPF: 619.399.091-71
+- Data de Nascimento: 12/5/1992
+- Telefone: (83)98565-6183
+- Genero: FEMININO
+- Classe: OURO
+- Reservas Confirmadas: 0
+======================
+- Nome: AHRI SOUZA
+- CPF: 534.624.751-34
+- Data de Nascimento: 23/9/1995
+- Telefone: (83)91638-2200
+- Genero: OUTROS
+- Classe: OURO
+- Reservas Confirmadas: 0
+======================
+- Nome: SAKURA CUNHA
+- CPF: 842.513.542-73
+- Data de Nascimento: 25/9/1988
+- Telefone: (49)98666-1128
+- Genero: OUTROS
+- Classe: BRONZE
+- Reservas Confirmadas: 0
+======================
+================================
+================================
+===== Banco de Tripulantes =====
+================================
+- Nome: HARRY ALMEIDA
+- CPF: 104.332.181-00
+- Data de Nascimento: 7/11/1942
+- Telefone: (14)91535-4582
+- Genero: MASCULINO
+- Cargo: PILOTO
+- Horas Trabalhadas: 72
+- Salario: 7515.00
+======================
+- Nome: KAYLE MENDES
+- CPF: 863.794.026-91
+- Data de Nascimento: 12/12/1953
+- Telefone: (38)95514-2674
+- Genero: MASCULINO
+- Cargo: COMISSARIO
+- Horas Trabalhadas: 13
+- Salario: 12763.00
+======================
+- Nome: MIKASA FARIA
+- CPF: 594.078.161-68
+- Data de Nascimento: 25/5/1996
+- Telefone: (90)95925-4150
+- Genero: OUTROS
+- Cargo: PILOTO
+- Horas Trabalhadas: 6
+- Salario: 22668.00
+======================
+- Nome: VI MARTINS
+- CPF: 341.316.475-91
+- Data de Nascimento: 15/11/1971
+- Telefone: (37)94374-2169
+- Genero: OUTROS
+- Cargo: PILOTO
+- Horas Trabalhadas: 69
+- Salario: 24892.00
+======================
+- Nome: EKKO CUNHA
+- CPF: 327.648.350-51
+- Data de Nascimento: 17/11/1942
+- Telefone: (51)96572-5386
+- Genero: MASCULINO
+- Cargo: PILOTO
+- Horas Trabalhadas: 117
+- Salario: 19585.00
+======================
+- Nome: LOKI OLIVEIRA
+- CPF: 537.672.423-97
+- Data de Nascimento: 9/5/1988
+- Telefone: (44)99577-8019
+- Genero: OUTROS
+- Cargo: COMISSARIO
+- Horas Trabalhadas: 47
+- Salario: 8186.00
+======================
+- Nome: HERMIONE ARAUJO
+- CPF: 287.101.226-13
+- Data de Nascimento: 9/7/1974
+- Telefone: (59)99763-8668
+- Genero: OUTROS
+- Cargo: COMISSARIO
+- Horas Trabalhadas: 71
+- Salario: 29206.00
+======================
+- Nome: SASUKE MENEZES
+- CPF: 018.451.462-20
+- Data de Nascimento: 12/10/2004
+- Telefone: (44)98201-3927
+- Genero: OUTROS
+- Cargo: PILOTO
+- Horas Trabalhadas: 112
+- Salario: 21489.00
+======================
+- Nome: AHRI FERREIRA
+- CPF: 489.325.288-70
+- Data de Nascimento: 29/1/1969
+- Telefone: (73)90319-2832
+- Genero: FEMININO
+- Cargo: COMISSARIO
+- Horas Trabalhadas: 31
+- Salario: 2898.00
+======================
+- Nome: GANDALF SILVA
+- CPF: 391.171.822-55
+- Data de Nascimento: 28/4/1989
+- Telefone: (32)94342-9645
+- Genero: OUTROS
+- Cargo: COMISSARIO
+- Horas Trabalhadas: 28
+- Salario: 18671.00
+======================
+================================

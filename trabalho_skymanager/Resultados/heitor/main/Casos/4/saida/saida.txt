@@ -1,0 +1,12 @@
+=============================
+========= RELATORIO =========
+=============================
+- Aeronaves: 4
+- Voos: 20
+- Reservas: 0
+- Reservas confirmadas: 0
+- Passageiros: 0
+- Media de idade passageiros: 0
+- Tripulantes: 0
+- Media de horas trabalhadas: 0
+=============================

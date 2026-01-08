@@ -1,0 +1,184 @@
+================================
+===== Ranking Tripulantes =====
+================================
+- Nome: NATASHA FARIA
+- CPF: 251.354.278-99
+- Data de Nascimento: 16/11/1994
+- Telefone: (94)98666-1128
+- Genero: OUTROS
+- Cargo: COMISSARIO
+- Horas Trabalhadas: 120
+- Salario: 22737.00
+======================
+- Nome: EKKO CUNHA
+- CPF: 327.648.350-51
+- Data de Nascimento: 17/11/1942
+- Telefone: (51)96572-5386
+- Genero: MASCULINO
+- Cargo: PILOTO
+- Horas Trabalhadas: 117
+- Salario: 19585.00
+======================
+- Nome: SASUKE MENEZES
+- CPF: 018.451.462-20
+- Data de Nascimento: 12/10/2004
+- Telefone: (44)98201-3927
+- Genero: OUTROS
+- Cargo: PILOTO
+- Horas Trabalhadas: 112
+- Salario: 21489.00
+======================
+- Nome: HARRY SILVA
+- CPF: 430.980.500-04
+- Data de Nascimento: 10/2/1985
+- Telefone: (78)92579-1931
+- Genero: OUTROS
+- Cargo: PILOTO
+- Horas Trabalhadas: 109
+- Salario: 7089.00
+======================
+- Nome: GANDALF SILVA
+- CPF: 031.051.834-26
+- Data de Nascimento: 22/3/1959
+- Telefone: (80)92167-8744
+- Genero: MASCULINO
+- Cargo: COMISSARIO
+- Horas Trabalhadas: 104
+- Salario: 14338.00
+======================
+- Nome: TONY RODRIGUES
+- CPF: 311.656.670-45
+- Data de Nascimento: 21/12/1997
+- Telefone: (23)90993-7596
+- Genero: OUTROS
+- Cargo: COMISSARIO
+- Horas Trabalhadas: 103
+- Salario: 29235.00
+======================
+- Nome: HARRY ALMEIDA
+- CPF: 104.332.181-00
+- Data de Nascimento: 7/11/1942
+- Telefone: (14)91535-4582
+- Genero: MASCULINO
+- Cargo: PILOTO
+- Horas Trabalhadas: 72
+- Salario: 7515.00
+======================
+- Nome: HERMIONE ARAUJO
+- CPF: 287.101.226-13
+- Data de Nascimento: 9/7/1974
+- Telefone: (59)99763-8668
+- Genero: OUTROS
+- Cargo: COMISSARIO
+- Horas Trabalhadas: 71
+- Salario: 29206.00
+======================
+- Nome: VI MARTINS
+- CPF: 341.316.475-91
+- Data de Nascimento: 15/11/1971
+- Telefone: (37)94374-2169
+- Genero: OUTROS
+- Cargo: PILOTO
+- Horas Trabalhadas: 69
+- Salario: 24892.00
+======================
+- Nome: AHRI SOUZA
+- CPF: 534.624.751-34
+- Data de Nascimento: 23/9/1995
+- Telefone: (83)91638-2200
+- Genero: OUTROS
+- Cargo: PILOTO
+- Horas Trabalhadas: 65
+- Salario: 9690.00
+======================
+- Nome: LOKI OLIVEIRA
+- CPF: 537.672.423-97
+- Data de Nascimento: 9/5/1988
+- Telefone: (44)99577-8019
+- Genero: OUTROS
+- Cargo: COMISSARIO
+- Horas Trabalhadas: 47
+- Salario: 8186.00
+======================
+- Nome: HERMIONE SANTANA
+- CPF: 124.118.244-24
+- Data de Nascimento: 18/5/2004
+- Telefone: (54)93335-5325
+- Genero: OUTROS
+- Cargo: COMISSARIO
+- Horas Trabalhadas: 33
+- Salario: 28725.00
+======================
+- Nome: AHRI FERREIRA
+- CPF: 489.325.288-70
+- Data de Nascimento: 29/1/1969
+- Telefone: (73)90319-2832
+- Genero: FEMININO
+- Cargo: COMISSARIO
+- Horas Trabalhadas: 31
+- Salario: 2898.00
+======================
+- Nome: GANDALF SILVA
+- CPF: 391.171.822-55
+- Data de Nascimento: 28/4/1989
+- Telefone: (32)94342-9645
+- Genero: OUTROS
+- Cargo: COMISSARIO
+- Horas Trabalhadas: 28
+- Salario: 18671.00
+======================
+- Nome: HERMIONE CASTRO
+- CPF: 191.361.939-76
+- Data de Nascimento: 26/7/1995
+- Telefone: (21)96868-9565
+- Genero: FEMININO
+- Cargo: COMISSARIO
+- Horas Trabalhadas: 27
+- Salario: 22945.00
+======================
+- Nome: FIZZ MENEZES
+- CPF: 326.773.602-17
+- Data de Nascimento: 10/1/1975
+- Telefone: (44)97454-5673
+- Genero: FEMININO
+- Cargo: COMISSARIO
+- Horas Trabalhadas: 20
+- Salario: 7222.00
+======================
+- Nome: KAYLE MENDES
+- CPF: 863.794.026-91
+- Data de Nascimento: 12/12/1953
+- Telefone: (38)95514-2674
+- Genero: MASCULINO
+- Cargo: COMISSARIO
+- Horas Trabalhadas: 13
+- Salario: 12763.00
+======================
+- Nome: SYNDRA SOUZA
+- CPF: 133.387.262-36
+- Data de Nascimento: 30/5/1962
+- Telefone: (20)97260-2604
+- Genero: MASCULINO
+- Cargo: PILOTO
+- Horas Trabalhadas: 12
+- Salario: 25692.00
+======================
+- Nome: MIKASA FARIA
+- CPF: 594.078.161-68
+- Data de Nascimento: 25/5/1996
+- Telefone: (90)95925-4150
+- Genero: OUTROS
+- Cargo: PILOTO
+- Horas Trabalhadas: 6
+- Salario: 22668.00
+======================
+- Nome: EKKO ARAUJO
+- CPF: 346.578.713-74
+- Data de Nascimento: 1/5/1970
+- Telefone: (13)99638-4770
+- Genero: OUTROS
+- Cargo: PILOTO
+- Horas Trabalhadas: 1
+- Salario: 3326.00
+======================
+================================

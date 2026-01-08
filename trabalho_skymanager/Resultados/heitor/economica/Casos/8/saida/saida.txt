@@ -1,0 +1,53 @@
+================================
+===== Consulta Reservas ========
+================================
+- ID: RES-1
+- Passageiro: 570.154.303-04
+- Status: CONFIRMADA
+- Codigo do Voo: WR6973
+- Preco: 1979.45
+- Tipo: ECONOMICA
+- Numero de Bagagens: 1
+- Assento Especial: NAO
+===============================
+- ID: RES-2
+- Passageiro: 048.281.489-65
+- Status: CONFIRMADA
+- Codigo do Voo: LT4433
+- Preco: 3429.30
+- Tipo: EXECUTIVA
+- Numero de Bagagens: 2
+- Refeicao Especial: SIM
+- Acesso ao Lounge: SIM
+===============================
+- ID: RES-3
+- Passageiro: 316.475.255-51
+- Status: CONFIRMADA
+- Codigo do Voo: LT4433
+- Preco: 4453.70
+- Tipo: PRIME
+- Numero de Bagagens: 2
+- Refeicao: BASICA
+- Motorista: SIM
+===============================
+- ID: RES-4
+- Passageiro: 532.871.012-69
+- Status: CONFIRMADA
+- Codigo do Voo: WR6973
+- Preco: 3483.65
+- Tipo: PRIME
+- Numero de Bagagens: 2
+- Refeicao: BASICA
+- Motorista: NAO
+===============================
+- ID: RES-5
+- Passageiro: 953.767.242-55
+- Status: CONFIRMADA
+- Codigo do Voo: KI2647
+- Preco: 2304.98
+- Tipo: EXECUTIVA
+- Numero de Bagagens: 1
+- Refeicao Especial: SIM
+- Acesso ao Lounge: NAO
+===============================
+================================
