@@ -34,6 +34,18 @@ int sistemaProcessaReserva(void *ptr_sistema, void *ptr_voos, Reserva *reserva) 
     }
 
     Passageiro *p = sistemaBuscaPassageiroPorCpf(s, cpf);
+    if (!p) {
+        setStatusReserva(reserva, "CANCELADA"); 
+         setPrecoReserva(reserva, 0.00);
+        return 0;
+    }
+    
+        Voo *v = sistemaBuscaVooPorCodigo(s, codVoo);
+    if (!v) {
+        setStatusReserva(reserva, "CANCELADA"); 
+        setPrecoReserva(reserva, 0.00);
+        return 0;
+    }
 
     setStatusReserva(reserva, "CONFIRMADA"); 
     float precoFinal = sistemaCalculaPrecoReserva(s, reserva, p);
