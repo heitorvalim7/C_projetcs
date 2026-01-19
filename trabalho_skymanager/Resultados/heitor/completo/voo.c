@@ -91,12 +91,33 @@ void desalocaVoo(void *dado){
 }
 
 /** Comparação por código do voo (retorna 1 se iguais, 0 caso contrário) */
-int comparaVoo(void *a, void *b){
+int comparaVoo(const void *a, const void *b){
     if (!a || !b) return 0;
     Voo *v1 = (Voo *)a;
     Voo *v2 = (Voo *)b;
     return strcmp(v1->codigo, v2->codigo) == 0;
 }
+
+int verificaCodigoVoo(void *dado, void *chave){
+    if (!dado || !chave) return 0;
+    Voo *v = (Voo *)dado;
+    return strcmp(getCodigoVoo(v), (char *)chave) == 0;
+}
+
+void imprimeVoo(void *dado){
+    Voo *v = (Voo *)dado;
+    if(!v) return;
+    printf("Codigo: %s\n", v->codigo);
+    printf("Origem: %s\n", v->origem);
+    printf("Destino: %s\n", v->destino);
+    printf("Codigo Aeronave: %s\n", v->codigoAeronave);
+    printf("Data: ");
+    imprimeData(v->data);
+    printf("Hora Saida: %02d\n", v->horaSaida);
+    printf("Hora Chegada: %02d\n", v->horaChegada);
+    printf("Preco: %.2f\n", v->preco);
+}
+
 
 /** Getters */
 char *getCodigoVoo(Voo *v){

@@ -1,0 +1,226 @@
+- Arquivo de configuração encontrado!
+ - Arquivos header necessários do professor existem na pasta Includes
+ - Arquivos objetos necessários do professor existem na pasta Gabarito-obj.
+
+#######################################
+ALUNO: heitor
+#######################################
+
+CRIANDO O DIRETÓRIO DE RESULTADO PARA heitor:
+ - Diretório Resultados/heitor criado com sucesso!
+ - Diretório Resultados/heitor/main criado com sucesso!
+ - Diretório Resultados/heitor/completo criado com sucesso!
+ - Diretório Resultados/heitor/gerenciadorpacotes criado com sucesso!
+ - Diretório Resultados/heitor/pacote criado com sucesso!
+ - Arquivos criados: ok!
+
+CHECKANDO OS ARQUIVOS DO ALUNO:
+ - Arquivo esperado 'Respostas/heitor/gerenciadorpacotes.c' encontrado!
+ - Arquivo esperado 'Respostas/heitor/gerenciadorpacotes.h' encontrado!
+ - Arquivo esperado 'Respostas/heitor/main.c' encontrado!
+ - Arquivo esperado 'Respostas/heitor/pacote.c' encontrado!
+ - Arquivo esperado 'Respostas/heitor/pacote.h' encontrado!
+ - Arquivos esperados enviados: Ok!
+
+COPIANDO OS ARQUIVOS PARA A PASTA DE RESULTADO DO ALUNO:
+ - Pasta main:
+ - Copiando os Casos de teste para a pasta Resultados/heitor/main
+ - Copiando os Includes/gerenciadorpacotes.h Includes/pacote.h do professor para a pasta Resultados/heitor/main
+ - Copiando os Includes/*.o do professor para a pasta Resultados/heitor/main
+ - Removendo o main.o do professor da pasta Resultados/heitor/main
+ - Copiando o Respostas/heitor/main.c do aluno para a pasta Resultados/heitor/main
+ - Pasta completo:
+ - Copiando os Casos de teste para a pasta Resultados/heitor/completo
+ - Copiando os Respostas/heitor/gerenciadorpacotes.c do aluno para a pasta Resultados/heitor/completo
+ - Copiando os Respostas/heitor/gerenciadorpacotes.h do aluno para a pasta Resultados/heitor/completo
+ - Copiando os Respostas/heitor/main.c do aluno para a pasta Resultados/heitor/completo
+ - Copiando os Respostas/heitor/pacote.c do aluno para a pasta Resultados/heitor/completo
+ - Copiando os Respostas/heitor/pacote.h do aluno para a pasta Resultados/heitor/completo
+ - Pasta gerenciadorpacotes:
+ - Copiando os Casos de teste para a pasta Resultados/heitor/gerenciadorpacotes
+ - Copiando os Includes/gerenciadorpacotes.h Includes/pacote.h do professor para a pasta Resultados/heitor/gerenciadorpacotes
+ - Copiando os Includes/*.o do professor para a pasta Resultados/heitor/gerenciadorpacotes
+ - Removendo o gerenciadorpacotes.o do professor da pasta Resultados/heitor/gerenciadorpacotes
+ - Copiando o Respostas/heitor/gerenciadorpacotes.c do aluno para a pasta Resultados/heitor/gerenciadorpacotes
+ - Pasta pacote:
+ - Copiando os Casos de teste para a pasta Resultados/heitor/pacote
+ - Copiando os Includes/gerenciadorpacotes.h Includes/pacote.h do professor para a pasta Resultados/heitor/pacote
+ - Copiando os Includes/*.o do professor para a pasta Resultados/heitor/pacote
+ - Removendo o pacote.o do professor da pasta Resultados/heitor/pacote
+ - Copiando o Respostas/heitor/pacote.c do aluno para a pasta Resultados/heitor/pacote
+ - Copiando Arquivos Extras do Aluno:
+ - Arquivos copiados: ok!
+
+COMPILANDO OS ARQUIVOS NA PASTA DE RESULTADO DO ALUNO:
+ - Compilação dos arquivos do aluno na pasta main ok!
+ - Arquivo de output gerado: Resultados/heitor/main/result_compilation.txt
+ - Compilação dos arquivos do aluno na pasta completo ok!
+ - Arquivo de output gerado: Resultados/heitor/completo/result_compilation.txt
+ - Compilação dos arquivos do aluno na pasta gerenciadorpacotes ok!
+ - Arquivo de output gerado: Resultados/heitor/gerenciadorpacotes/result_compilation.txt
+ - Compilação dos arquivos do aluno na pasta pacote ok!
+ - Arquivo de output gerado: Resultados/heitor/pacote/result_compilation.txt
+ - Arquivos Compilados: ok!
+
+LINKANDO OS ARQUIVOS COMPILADOS:
+ - Pasta main:
+ - Gerando o binário prog linkando com o(s) arquivo(s) main/*.o
+ - Arquivos Linkados: Ok! Binário prog gerado com sucesso.
+ - Arquivo de output gerado: Resultados/heitor/main/result_linking.txt
+ - Pasta completo:
+ - Gerando o binário prog linkando com o(s) arquivo(s) completo/*.o
+ - Arquivos Linkados: Ok! Binário prog gerado com sucesso.
+ - Arquivo de output gerado: Resultados/heitor/completo/result_linking.txt
+ - Pasta gerenciadorpacotes:
+ - Gerando o binário prog linkando com o(s) arquivo(s) gerenciadorpacotes/*.o
+ - Arquivos Linkados: Ok! Binário prog gerado com sucesso.
+ - Arquivo de output gerado: Resultados/heitor/gerenciadorpacotes/result_linking.txt
+ - Pasta pacote:
+ - Gerando o binário prog linkando com o(s) arquivo(s) pacote/*.o
+ - Arquivos Linkados: Ok! Binário prog gerado com sucesso.
+ - Arquivo de output gerado: Resultados/heitor/pacote/result_linking.txt
+
+EXECUTANDO O VALGRIND EM CADA CASO:
+ - Pasta main / Caso 1:
+ - Arquivo de output gerado: Resultados/heitor/main/Casos/1/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 24, frees: 24, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta main / Caso 2:
+ - Arquivo de output gerado: Resultados/heitor/main/Casos/2/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 45, frees: 45, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta main / Caso 3:
+ - Arquivo de output gerado: Resultados/heitor/main/Casos/3/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 3, frees: 3, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta main / Caso 4:
+ - Arquivo de output gerado: Resultados/heitor/main/Casos/4/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 6, frees: 6, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta main / Caso 5:
+ - Arquivo de output gerado: Resultados/heitor/main/Casos/5/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 69, frees: 69, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Nota para a pasta main (máximo 2.50) - 50.00 de 50 - 100.00% de 2.50: 2.50.
+ -----
+ - Pasta completo / Caso 1:
+ - Arquivo de output gerado: Resultados/heitor/completo/Casos/1/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 19, frees: 19, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta completo / Caso 2:
+ - Arquivo de output gerado: Resultados/heitor/completo/Casos/2/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 0, frees: 0, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta completo / Caso 3:
+ - Arquivo de output gerado: Resultados/heitor/completo/Casos/3/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 4, frees: 4, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta completo / Caso 4:
+ - Arquivo de output gerado: Resultados/heitor/completo/Casos/4/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 0, frees: 0, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta completo / Caso 5:
+ - Arquivo de output gerado: Resultados/heitor/completo/Casos/5/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 19, frees: 19, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Nota para a pasta completo (máximo 2.50) - 50.00 de 50 - 100.00% de 2.50: 2.50.
+ -----
+ - Pasta gerenciadorpacotes / Caso 1:
+ - Arquivo de output gerado: Resultados/heitor/gerenciadorpacotes/Casos/1/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 25, frees: 25, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta gerenciadorpacotes / Caso 2:
+ - Arquivo de output gerado: Resultados/heitor/gerenciadorpacotes/Casos/2/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 47, frees: 47, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta gerenciadorpacotes / Caso 3:
+ - Arquivo de output gerado: Resultados/heitor/gerenciadorpacotes/Casos/3/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 4, frees: 4, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta gerenciadorpacotes / Caso 4:
+ - Arquivo de output gerado: Resultados/heitor/gerenciadorpacotes/Casos/4/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 6, frees: 6, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta gerenciadorpacotes / Caso 5:
+ - Arquivo de output gerado: Resultados/heitor/gerenciadorpacotes/Casos/5/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 72, frees: 72, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Nota para a pasta gerenciadorpacotes (máximo 2.50) - 50.00 de 50 - 100.00% de 2.50: 2.50.
+ -----
+ - Pasta pacote / Caso 1:
+ - Arquivo de output gerado: Resultados/heitor/pacote/Casos/1/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 18, frees: 18, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta pacote / Caso 2:
+ - Arquivo de output gerado: Resultados/heitor/pacote/Casos/2/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 0, frees: 0, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta pacote / Caso 3:
+ - Arquivo de output gerado: Resultados/heitor/pacote/Casos/3/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 3, frees: 3, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta pacote / Caso 4:
+ - Arquivo de output gerado: Resultados/heitor/pacote/Casos/4/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 0, frees: 0, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Pasta pacote / Caso 5:
+ - Arquivo de output gerado: Resultados/heitor/pacote/Casos/5/result_valgrind.txt.
+ - Valgrind: Ok! allocs: 18, frees: 18, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o saida.txt: Ok! Peso: 10
+ - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
+ - Nota para a pasta pacote (máximo 2.50) - 50.00 de 50 - 100.00% de 2.50: 2.50.
+ -----
+
+#######################################
+RESULTADOS FINAIS
+#######################################
+
+----------------------------------------------------------------------------
+Aluno: heitor
+ - Arquivos Esperados Corretos: 5 de 5
+ - Pastas Compiladas Corretamente: 4 de 4 
+ - Pastas Linkadas Corretamente: 4 de 4
+ - Teste main
+ - Resultados corretos: 5 de 5
+ - Valgrinds corretos: 5 de 5
+ - Nota de heitor para o teste main: 2.50
+ - Teste completo
+ - Resultados corretos: 5 de 5
+ - Valgrinds corretos: 5 de 5
+ - Nota de heitor para o teste completo: 2.50
+ - Teste gerenciadorpacotes
+ - Resultados corretos: 5 de 5
+ - Valgrinds corretos: 5 de 5
+ - Nota de heitor para o teste gerenciadorpacotes: 2.50
+ - Teste pacote
+ - Resultados corretos: 5 de 5
+ - Valgrinds corretos: 5 de 5
+ - Nota de heitor para o teste pacote: 2.50
+ - Nota de heitor: 0+(2.50)+(2.50)+(2.50)+(2.50)
+ - Nota de heitor: 10.00
+
+----------------------------------------------------------------------------
+
+Arquivo CSV Resultado.csv com os resultados finais foi gerado na pasta raíz!
+
+
+

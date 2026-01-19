@@ -66,6 +66,8 @@ COPIANDO OS ARQUIVOS PARA A PASTA DE RESULTADO DO ALUNO:
  - Copiando Respostas/heitor/data.c para Resultados/heitor/completo
  - Copiando Respostas/heitor/executiva.c para Resultados/heitor/main
  - Copiando Respostas/heitor/executiva.c para Resultados/heitor/completo
+ - Copiando Respostas/heitor/generico.c para Resultados/heitor/main
+ - Copiando Respostas/heitor/generico.c para Resultados/heitor/completo
  - Copiando Respostas/heitor/passageiro.c para Resultados/heitor/main
  - Copiando Respostas/heitor/passageiro.c para Resultados/heitor/completo
  - Copiando Respostas/heitor/pessoa.c para Resultados/heitor/main
@@ -84,6 +86,8 @@ COPIANDO OS ARQUIVOS PARA A PASTA DE RESULTADO DO ALUNO:
  - Copiando Respostas/heitor/data.h para Resultados/heitor/completo
  - Copiando Respostas/heitor/executiva.h para Resultados/heitor/main
  - Copiando Respostas/heitor/executiva.h para Resultados/heitor/completo
+ - Copiando Respostas/heitor/generico.h para Resultados/heitor/main
+ - Copiando Respostas/heitor/generico.h para Resultados/heitor/completo
  - Copiando Respostas/heitor/passageiro.h para Resultados/heitor/main
  - Copiando Respostas/heitor/passageiro.h para Resultados/heitor/completo
  - Copiando Respostas/heitor/pessoa.h para Resultados/heitor/main
@@ -136,104 +140,104 @@ LINKANDO OS ARQUIVOS COMPILADOS:
 EXECUTANDO O VALGRIND EM CADA CASO:
  - Pasta main / Caso 1:
  - Arquivo de output gerado: Resultados/heitor/main/Casos/1/result_valgrind.txt.
- - Valgrind: Ok! allocs: 185, frees: 185, errors: 0 | Desconto do valgrind: 0.0%
+ - Valgrind: Ok! allocs: 189, frees: 189, errors: 0 | Desconto do valgrind: 0.0%
  - Resultado para o saida.txt: Ok! Peso: 10
  - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Pasta main / Caso 10:
  - Arquivo de output gerado: Resultados/heitor/main/Casos/10/result_valgrind.txt.
- - Valgrind: Ok! allocs: 584, frees: 584, errors: 0 | Desconto do valgrind: 0.0%
+ - Valgrind: Ok! allocs: 588, frees: 588, errors: 0 | Desconto do valgrind: 0.0%
  - Resultado para o saida.txt: Ok! Peso: 10
  - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Pasta main / Caso 2:
  - Arquivo de output gerado: Resultados/heitor/main/Casos/2/result_valgrind.txt.
- - Valgrind: Ok! allocs: 185, frees: 185, errors: 0 | Desconto do valgrind: 0.0%
+ - Valgrind: Ok! allocs: 189, frees: 189, errors: 0 | Desconto do valgrind: 0.0%
  - Resultado para o saida.txt: Ok! Peso: 10
  - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Pasta main / Caso 3:
  - Arquivo de output gerado: Resultados/heitor/main/Casos/3/result_valgrind.txt.
- - Valgrind: Ok! allocs: 13,505, frees: 13,505, errors: 0 | Desconto do valgrind: 0.0%
+ - Valgrind: Ok! allocs: 13,509, frees: 13,509, errors: 0 | Desconto do valgrind: 0.0%
  - Resultado para o saida.txt: Ok! Peso: 10
  - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Pasta main / Caso 4:
  - Arquivo de output gerado: Resultados/heitor/main/Casos/4/result_valgrind.txt.
- - Valgrind: Ok! allocs: 161, frees: 161, errors: 0 | Desconto do valgrind: 0.0%
+ - Valgrind: Ok! allocs: 165, frees: 165, errors: 0 | Desconto do valgrind: 0.0%
  - Resultado para o saida.txt: Ok! Peso: 10
  - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Pasta main / Caso 5:
  - Arquivo de output gerado: Resultados/heitor/main/Casos/5/result_valgrind.txt.
- - Valgrind: Ok! allocs: 175, frees: 175, errors: 0 | Desconto do valgrind: 0.0%
+ - Valgrind: Ok! allocs: 179, frees: 179, errors: 0 | Desconto do valgrind: 0.0%
  - Resultado para o saida.txt: Ok! Peso: 10
  - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Pasta main / Caso 6:
  - Arquivo de output gerado: Resultados/heitor/main/Casos/6/result_valgrind.txt.
- - Valgrind: Ok! allocs: 186, frees: 186, errors: 0 | Desconto do valgrind: 0.0%
+ - Valgrind: Ok! allocs: 189, frees: 189, errors: 0 | Desconto do valgrind: 0.0%
  - Resultado para o saida.txt: Ok! Peso: 10
  - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Pasta main / Caso 7:
  - Arquivo de output gerado: Resultados/heitor/main/Casos/7/result_valgrind.txt.
- - Valgrind: Ok! allocs: 169, frees: 169, errors: 0 | Desconto do valgrind: 0.0%
+ - Valgrind: Ok! allocs: 173, frees: 173, errors: 0 | Desconto do valgrind: 0.0%
  - Resultado para o saida.txt: Ok! Peso: 10
  - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Pasta main / Caso 8:
  - Arquivo de output gerado: Resultados/heitor/main/Casos/8/result_valgrind.txt.
- - Valgrind: Ok! allocs: 169, frees: 169, errors: 0 | Desconto do valgrind: 0.0%
+ - Valgrind: Ok! allocs: 173, frees: 173, errors: 0 | Desconto do valgrind: 0.0%
  - Resultado para o saida.txt: Ok! Peso: 10
  - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Pasta main / Caso 9:
  - Arquivo de output gerado: Resultados/heitor/main/Casos/9/result_valgrind.txt.
- - Valgrind: Ok! allocs: 175, frees: 175, errors: 0 | Desconto do valgrind: 0.0%
+ - Valgrind: Ok! allocs: 179, frees: 179, errors: 0 | Desconto do valgrind: 0.0%
  - Resultado para o saida.txt: Ok! Peso: 10
  - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Nota para a pasta main (máximo 7.50) - 100.00 de 100 - 100.00% de 7.50: 7.50.
  -----
  - Pasta completo / Caso 1:
  - Arquivo de output gerado: Resultados/heitor/completo/Casos/1/result_valgrind.txt.
- - Valgrind: Ok! allocs: 185, frees: 185, errors: 0 | Desconto do valgrind: 0.0%
+ - Valgrind: Ok! allocs: 189, frees: 189, errors: 0 | Desconto do valgrind: 0.0%
  - Resultado para o saida.txt: Ok! Peso: 10
  - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Pasta completo / Caso 10:
  - Arquivo de output gerado: Resultados/heitor/completo/Casos/10/result_valgrind.txt.
- - Valgrind: Ok! allocs: 674, frees: 674, errors: 0 | Desconto do valgrind: 0.0%
+ - Valgrind: Ok! allocs: 678, frees: 678, errors: 0 | Desconto do valgrind: 0.0%
  - Resultado para o saida.txt: Ok! Peso: 10
  - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Pasta completo / Caso 2:
  - Arquivo de output gerado: Resultados/heitor/completo/Casos/2/result_valgrind.txt.
- - Valgrind: Ok! allocs: 185, frees: 185, errors: 0 | Desconto do valgrind: 0.0%
+ - Valgrind: Ok! allocs: 189, frees: 189, errors: 0 | Desconto do valgrind: 0.0%
  - Resultado para o saida.txt: Ok! Peso: 10
  - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Pasta completo / Caso 3:
  - Arquivo de output gerado: Resultados/heitor/completo/Casos/3/result_valgrind.txt.
- - Valgrind: Ok! allocs: 13,505, frees: 13,505, errors: 0 | Desconto do valgrind: 0.0%
+ - Valgrind: Ok! allocs: 13,509, frees: 13,509, errors: 0 | Desconto do valgrind: 0.0%
  - Resultado para o saida.txt: Ok! Peso: 10
  - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Pasta completo / Caso 4:
  - Arquivo de output gerado: Resultados/heitor/completo/Casos/4/result_valgrind.txt.
- - Valgrind: Ok! allocs: 161, frees: 161, errors: 0 | Desconto do valgrind: 0.0%
+ - Valgrind: Ok! allocs: 165, frees: 165, errors: 0 | Desconto do valgrind: 0.0%
  - Resultado para o saida.txt: Ok! Peso: 10
  - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Pasta completo / Caso 5:
  - Arquivo de output gerado: Resultados/heitor/completo/Casos/5/result_valgrind.txt.
- - Valgrind: Ok! allocs: 175, frees: 175, errors: 0 | Desconto do valgrind: 0.0%
+ - Valgrind: Ok! allocs: 179, frees: 179, errors: 0 | Desconto do valgrind: 0.0%
  - Resultado para o saida.txt: Ok! Peso: 10
  - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Pasta completo / Caso 6:
  - Arquivo de output gerado: Resultados/heitor/completo/Casos/6/result_valgrind.txt.
- - Valgrind: Ok! allocs: 186, frees: 186, errors: 0 | Desconto do valgrind: 0.0%
+ - Valgrind: Ok! allocs: 189, frees: 189, errors: 0 | Desconto do valgrind: 0.0%
  - Resultado para o saida.txt: Ok! Peso: 10
  - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Pasta completo / Caso 7:
  - Arquivo de output gerado: Resultados/heitor/completo/Casos/7/result_valgrind.txt.
- - Valgrind: Ok! allocs: 184, frees: 184, errors: 0 | Desconto do valgrind: 0.0%
+ - Valgrind: Ok! allocs: 188, frees: 188, errors: 0 | Desconto do valgrind: 0.0%
  - Resultado para o saida.txt: Ok! Peso: 10
  - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Pasta completo / Caso 8:
  - Arquivo de output gerado: Resultados/heitor/completo/Casos/8/result_valgrind.txt.
- - Valgrind: Ok! allocs: 184, frees: 184, errors: 0 | Desconto do valgrind: 0.0%
+ - Valgrind: Ok! allocs: 188, frees: 188, errors: 0 | Desconto do valgrind: 0.0%
  - Resultado para o saida.txt: Ok! Peso: 10
  - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Pasta completo / Caso 9:
  - Arquivo de output gerado: Resultados/heitor/completo/Casos/9/result_valgrind.txt.
- - Valgrind: Ok! allocs: 196, frees: 196, errors: 0 | Desconto do valgrind: 0.0%
+ - Valgrind: Ok! allocs: 200, frees: 200, errors: 0 | Desconto do valgrind: 0.0%
  - Resultado para o saida.txt: Ok! Peso: 10
  - Nota para o Caso (soma dos pesos): 10.0 (soma total) - 0% (desconto do valgrind) = 10.00 de 10 pontos.
  - Nota para a pasta completo (máximo 0.0) - 100.00 de 100 - 100.00% de 0.0: 0.

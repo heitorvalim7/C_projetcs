@@ -83,10 +83,17 @@ void desalocaTripulante(void *dado){
         free(t);
     }
 }
-int comparaTripulante(void *a, void *b){
-    return comparaPessoa(getPessoaTripulante((Tripulante *)a), getPessoaTripulante((Tripulante *)b));
-} /* compara por CPF */
+int comparaTripulante(const void *a, const void *b){
+    Tripulante *t1 = *(Tripulante **)a;
+    Tripulante *t2 = *(Tripulante **)b;
+    return getHorasTripulante(t2) - getHorasTripulante(t1);
+} 
 
+int verificaCPFTripulante(void *dado, void *chave) {
+    if (!dado || !chave) return 0;
+    Tripulante *t = (Tripulante *)dado;
+    return strcmp(getCPFTripulante(t), (char *)chave) == 0;
+}
 /** Getters */
 Pessoa *getPessoaTripulante(Tripulante *t){
     return t ? t->pessoa : NULL;
@@ -100,8 +107,9 @@ int getHorasTripulante(Tripulante *t){
 float getSalarioTripulante(Tripulante *t){
     return t ? t->salario : -1;
 }   
-
-/** Conveniência: acesso aos campos de `Pessoa` */
+size_t getTamanhoTripulante(){
+    return sizeof(Tripulante);
+}
 char *getCPFTripulante(Tripulante *t){
     return getCPFPessoa(t->pessoa);
 }

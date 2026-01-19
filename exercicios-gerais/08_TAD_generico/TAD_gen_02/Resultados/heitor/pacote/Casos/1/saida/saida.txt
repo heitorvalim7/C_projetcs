@@ -1,0 +1,169 @@
+
+Escolha uma opcao:
+	(1) Cadastrar um novo pacote
+	(2) Imprimir um pacote especifico
+	(3) Imprimir todos os pacotes e sair
+Digite o tipo (0-char, 1-int) e o numero de elementos do pacote/mensagem: 
+Escolha uma opcao:
+	(1) Cadastrar um novo pacote
+	(2) Imprimir um pacote especifico
+	(3) Imprimir todos os pacotes e sair
+Digite o tipo (0-char, 1-int) e o numero de elementos do pacote/mensagem: 
+Escolha uma opcao:
+	(1) Cadastrar um novo pacote
+	(2) Imprimir um pacote especifico
+	(3) Imprimir todos os pacotes e sair
+Escolha uma opcao valida para o menu!
+Escolha uma opcao:
+	(1) Cadastrar um novo pacote
+	(2) Imprimir um pacote especifico
+	(3) Imprimir todos os pacotes e sair
+Escolha uma opcao valida para o menu!
+Escolha uma opcao:
+	(1) Cadastrar um novo pacote
+	(2) Imprimir um pacote especifico
+	(3) Imprimir todos os pacotes e sair
+Escolha uma opcao valida para o menu!
+Escolha uma opcao:
+	(1) Cadastrar um novo pacote
+	(2) Imprimir um pacote especifico
+	(3) Imprimir todos os pacotes e sair
+Escolha uma opcao valida para o menu!
+Escolha uma opcao:
+	(1) Cadastrar um novo pacote
+	(2) Imprimir um pacote especifico
+	(3) Imprimir todos os pacotes e sair
+Escolha uma opcao valida para o menu!
+Escolha uma opcao:
+	(1) Cadastrar um novo pacote
+	(2) Imprimir um pacote especifico
+	(3) Imprimir todos os pacotes e sair
+Escolha uma opcao valida para o menu!
+Escolha uma opcao:
+	(1) Cadastrar um novo pacote
+	(2) Imprimir um pacote especifico
+	(3) Imprimir todos os pacotes e sair
+Escolha uma opcao valida para o menu!
+Escolha uma opcao:
+	(1) Cadastrar um novo pacote
+	(2) Imprimir um pacote especifico
+	(3) Imprimir todos os pacotes e sair
+Digite o indice do pacote a ser impresso: 0 j
+1
+1 23
+5
+
+Escolha uma opcao:
+	(1) Cadastrar um novo pacote
+	(2) Imprimir um pacote especifico
+	(3) Imprimir todos os pacotes e sair
+Escolha uma opcao valida para o menu!
+Escolha uma opcao:
+	(1) Cadastrar um novo pacote
+	(2) Imprimir um pacote especifico
+	(3) Imprimir todos os pacotes e sair
+Escolha uma opcao valida para o menu!
+Escolha uma opcao:
+	(1) Cadastrar um novo pacote
+	(2) Imprimir um pacote especifico
+	(3) Imprimir todos os pacotes e sair
+Escolha uma opcao valida para o menu!
+Escolha uma opcao:
+	(1) Cadastrar um novo pacote
+	(2) Imprimir um pacote especifico
+	(3) Imprimir todos os pacotes e sair
+Escolha uma opcao valida para o menu!
+Escolha uma opcao:
+	(1) Cadastrar um novo pacote
+	(2) Imprimir um pacote especifico
+	(3) Imprimir todos os pacotes e sair
+Escolha uma opcao valida para o menu!
+Escolha uma opcao:
+	(1) Cadastrar um novo pacote
+	(2) Imprimir um pacote especifico
+	(3) Imprimir todos os pacotes e sair
+Escolha uma opcao valida para o menu!
+Escolha uma opcao:
+	(1) Cadastrar um novo pacote
+	(2) Imprimir um pacote especifico
+	(3) Imprimir todos os pacotes e sair
+Escolha uma opcao valida para o menu!
+Escolha uma opcao:
+	(1) Cadastrar um novo pacote
+	(2) Imprimir um pacote especifico
+	(3) Imprimir todos os pacotes e sair
+Escolha uma opcao valida para o menu!
+Escolha uma opcao:
+	(1) Cadastrar um novo pacote
+	(2) Imprimir um pacote especifico
+	(3) Imprimir todos os pacotes e sair
+Escolha uma opcao valida para o menu!
+Escolha uma opcao:
+	(1) Cadastrar um novo pacote
+	(2) Imprimir um pacote especifico
+	(3) Imprimir todos os pacotes e sair
+Escolha uma opcao valida para o menu!
+Escolha uma opcao:
+	(1) Cadastrar um novo pacote
+	(2) Imprimir um pacote especifico
+	(3) Imprimir todos os pacotes e sair
+Escolha uma opcao valida para o menu!
+Escolha uma opcao:
+	(1) Cadastrar um novo pacote
+	(2) Imprimir um pacote especifico
+	(3) Imprimir todos os pacotes e sair
+Escolha uma opcao valida para o menu!
+Escolha uma opcao:
+	(1) Cadastrar um novo pacote
+	(2) Imprimir um pacote especifico
+	(3) Imprimir todos os pacotes e sair
+Escolha uma opcao valida para o menu!
+Escolha uma opcao:
+	(1) Cadastrar um novo pacote
+	(2) Imprimir um pacote especifico
+	(3) Imprimir todos os pacotes e sair
+Digite o tipo (0-char, 1-int) e o numero de elementos do pacote/mensagem: 
+Escolha uma opcao:
+	(1) Cadastrar um novo pacote
+	(2) Imprimir um pacote especifico
+	(3) Imprimir todos os pacotes e sair
+Digite o tipo (0-char, 1-int) e o numero de elementos do pacote/mensagem: 
+Escolha uma opcao:
+	(1) Cadastrar um novo pacote
+	(2) Imprimir um pacote especifico
+	(3) Imprimir todos os pacotes e sair
+Digite o tipo (0-char, 1-int) e o numero de elementos do pacote/mensagem: 
+Escolha uma opcao:
+	(1) Cadastrar um novo pacote
+	(2) Imprimir um pacote especifico
+	(3) Imprimir todos os pacotes e sair
+Digite o tipo (0-char, 1-int) e o numero de elementos do pacote/mensagem: 
+Escolha uma opcao:
+	(1) Cadastrar um novo pacote
+	(2) Imprimir um pacote especifico
+	(3) Imprimir todos os pacotes e sair
+Digite o tipo (0-char, 1-int) e o numero de elementos do pacote/mensagem: 
+Escolha uma opcao:
+	(1) Cadastrar um novo pacote
+	(2) Imprimir um pacote especifico
+	(3) Imprimir todos os pacotes e sair
+Digite o tipo (0-char, 1-int) e o numero de elementos do pacote/mensagem: 
+Digite um tipo valido!
+Escolha uma opcao:
+	(1) Cadastrar um novo pacote
+	(2) Imprimir um pacote especifico
+	(3) Imprimir todos os pacotes e sair
+0 
+abcdefghi
+0 j
+1
+1 23
+5
+0 39 24 3 43 46 37 6 4 29 35 48 25 21 44 10 38 31 15 13 32 27 34 42 23 18 40 5 26 30 7 11 0 
+ijklmno
+0 p
+1
+0 14
+0 qrstuvwx
+0 yzabcd
+1

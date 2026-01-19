@@ -12,7 +12,7 @@
 #include "prime.h"
 #include "tripulante.h"
 #include "pessoa.h"
-
+#include "generico.h"
 typedef struct Sistema Sistema;
 
 /**
@@ -21,7 +21,7 @@ typedef struct Sistema Sistema;
  * @param cpfPassageiro CPF do passageiro
  * @return 1 se ambos estiverem cadastrados, 0 caso contrário     
  */
-int sistemaVerificaDadosCadastradosPessoa(Sistema *s, char *cpfPassageiro);
+int sistemaVerificaDadosCadastradosPessoa(void *dado1, void *dado2);
 
 /**
  * @brief Verifica se a aeronave está cadastrada no sistema
@@ -29,7 +29,7 @@ int sistemaVerificaDadosCadastradosPessoa(Sistema *s, char *cpfPassageiro);
  * @param codigoAeronave Código da aeronave
  * @return 1 se a aeronave estiver cadastrada, 0 caso contrário     
  */
-int sistemaVerificaDadosCadastradosAeronave(Sistema *s, char *codigoAeronave);
+int sistemaVerificaDadosCadastradosAeronave(void *dado1, void *dado2);
 
 /**
  * @brief Verifica se o voo está cadastrado no sistema
@@ -37,7 +37,7 @@ int sistemaVerificaDadosCadastradosAeronave(Sistema *s, char *codigoAeronave);
  * @param codigoVoo Código do voo
  * @return 1 se o voo estiver cadastrado, 0 caso contrário     
  */
-int sistemaVerificaDadosCadastradosVoo(Sistema *s, char *codigoVoo);
+int sistemaVerificaDadosCadastradosVoo(void *dado1, void *dado2);
 
 /**
  * @brief Verifica se o passageiro e o voo estão cadastrados no sistema
@@ -76,6 +76,12 @@ Sistema *criaSistema(void);
  * @param s Ponteiro para o Sistema
  */
 int sistemaProcessaReservasNaFila(Sistema *s, void *listapassageiros, void *listavoos, Reserva *reserva);
+
+/*
+ * @brief Roda o sistema, processando todas as reservas na fila
+ * @param s Ponteiro para o Sistema
+ */
+void sistemaRoda(Sistema *s);
 
 /**
  * @brief Desaloca o Sistema e todo o conteúdo (passageiros, tripulantes e fila)

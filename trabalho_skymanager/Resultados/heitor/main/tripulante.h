@@ -2,6 +2,7 @@
 #define _TRIPULANTE_H_
 
 #include "pessoa.h"
+#include "stdlib.h"
 
 typedef struct Tripulante Tripulante;
 
@@ -24,15 +25,15 @@ Tripulante *leTripulante();
 /** Funções compatíveis com callbacks genéricos */
 void imprimeTripulante(void *dado);
 void desalocaTripulante(void *dado);
-int comparaTripulante(void *a, void *b); /* compara por CPF */
+int comparaTripulante(const void *a, const void *b); /* compara por CPF */
+int verificaCPFTripulante(void *dado, void *dado2);
 
 /** Getters */
 Pessoa *getPessoaTripulante(Tripulante *t);
 char *getCargoTripulante(Tripulante *t);
 int getHorasTripulante(Tripulante *t);
 float getSalarioTripulante(Tripulante *t);
-
-/** Conveniência: acesso aos campos de `Pessoa` */
+size_t getTamanhoTripulante();
 char *getCPFTripulante(Tripulante *t);
 char *getNomeTripulante(Tripulante *t);
 Data *getDataNascimentoTripulante(Tripulante *t);

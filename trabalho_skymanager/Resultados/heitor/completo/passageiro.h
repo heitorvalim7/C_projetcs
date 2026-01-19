@@ -2,6 +2,7 @@
 #define _PASSAGEIRO_H_
 
 #include "pessoa.h"
+#include "stdlib.h"
 
 typedef struct Passageiro Passageiro;
 
@@ -21,12 +22,13 @@ Passageiro *lePassageiro();
 /* Funções compatíveis com callbacks genéricos */
 void imprimePassageiro(void *dado);
 void desalocaPassageiro(void *dado);
-int comparaPassageiro(void *a, void *b); /* compara por CPF */
-
+int comparaPassageiro(const void *a, const void *b); /* compara por CPF */
+int verificaCPFPassageiro(void *dado1, void *dado2);
 /* Getters */
 Pessoa *getPessoaPassageiro(Passageiro *p);
 char *getProgramaPassageiro(Passageiro *p);
 char *getCpfPassageiro(Passageiro *p);
+size_t getTamanhoPassageiro();
 
 /* Contador de reservas confirmadas */
 void incrementaReservasConfirmadas(Passageiro *p);

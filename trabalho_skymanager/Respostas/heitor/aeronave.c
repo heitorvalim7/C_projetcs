@@ -31,7 +31,10 @@ Aeronave *criaAeronave(char *codigo, char *modelo, int capacidade){
     return a;
 }
 
-/** Lê uma Aeronave da entrada padrão (codigo, modelo, capacidade) */
+/**
+ * Lê uma Aeronave da entrada padrão (codigo, modelo, capacidade)
+ * @return Ponteiro para Aeronave lida (NULL em erro)
+*/
 Aeronave *leAeronave(){
     char codigo[21], modelo[51];
     int capacidade;
@@ -43,6 +46,17 @@ Aeronave *leAeronave(){
     return criaAeronave(codigo, modelo, capacidade);
 }
 
+/** 
+ * @brief Imprime uma Aeronave (compatível com callbacks genéricos)
+ * @param dado Ponteiro para Aeronave
+ */
+void imprimeAeronave(void *dado){
+    if (!dado) return;
+    Aeronave *a = (Aeronave *)dado;
+    printf("Código: %s\n", a->codigo);
+    printf("Modelo: %s\n", a->modelo);
+    printf("Capacidade: %d\n", a->capacidade);
+}
 
 /** Desaloca uma Aeronave (compatível com callbacks genéricos) */
 void desalocaAeronave(void *dado){
@@ -54,11 +68,17 @@ void desalocaAeronave(void *dado){
 }
 
 /** Compara por código (retorna 1 se iguais, 0 caso contrário) */
-int comparaAeronave(void *a, void *b){
+int comparaAeronave(const void *a, const void *b){
     if (!a || !b) return 0;
     Aeronave *aa = (Aeronave *)a;
     Aeronave *bb = (Aeronave *)b;
     return strcmp(aa->codigo, bb->codigo) == 0;
+}
+
+int verificaCodigoAeronave(void *dado, void *chave){
+    if (!dado || !chave) return 0;
+    Aeronave *a = (Aeronave *)dado;
+    return strcmp(getCodigoAeronave(a), (char *)chave) == 0;
 }
 
 /** Getters */

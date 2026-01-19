@@ -69,13 +69,21 @@ void desalocaPassageiro(void *dado){
     free(p->programa);
     free(p);
 }
-int comparaPassageiro(void *a, void *b){
+int comparaPassageiro(const void *a, const void *b){
     if (!a || !b) return 0;
-    Passageiro *p1 = (Passageiro *)a;
-    Passageiro *p2 = (Passageiro *)b;
-    return comparaPessoa(( void *)p1->pessoa, ( void *)p2->pessoa);
-} /* compara por CPF */
-
+    Passageiro *p1 = *(Passageiro **)a;
+    Passageiro *p2 = *(Passageiro **)b;
+    return getReservasConfirmadas(p2) - getReservasConfirmadas(p1);
+} 
+int verificaCPFPassageiro(void *dado1, void *dado2){
+    if (!dado1 || !dado2) return 0;
+    Passageiro *p = (Passageiro *)dado1;
+    if (strcmp(getCpfPassageiro(p), (char *)dado2) == 0) {
+        return 1;
+    }
+    
+    return 0;
+}
 /* Getters */
 Pessoa *getPessoaPassageiro(Passageiro *p){
     if (!p) return NULL;
@@ -88,6 +96,9 @@ char *getProgramaPassageiro(Passageiro *p){
 char *getCpfPassageiro(Passageiro *p){
     if (!p) return NULL;
     return getCPFPessoa(p->pessoa);
+}
+size_t getTamanhoPassageiro(){
+    return sizeof(Passageiro);
 }
 
 /* Contador de reservas confirmadas */

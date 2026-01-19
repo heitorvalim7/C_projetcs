@@ -12,6 +12,8 @@ typedef struct Aeronave Aeronave;
  */
 Aeronave *criaAeronave(char *codigo, char *modelo, int capacidade);
 
+void imprimeAeronave(void *dado);
+
 /** Lê uma Aeronave da entrada padrão (codigo, modelo, capacidade) */
 Aeronave *leAeronave();
 
@@ -19,7 +21,9 @@ Aeronave *leAeronave();
 void desalocaAeronave(void *dado);
 
 /** Compara por código (retorna 1 se iguais, 0 caso contrário) */
-int comparaAeronave(void *a, void *b);
+int comparaAeronave(const void *a, const void *b);
+
+int verificaCodigoAeronave(void *dado, void *chave);
 
 /** Getters */
 char *getCodigoAeronave(Aeronave *a);

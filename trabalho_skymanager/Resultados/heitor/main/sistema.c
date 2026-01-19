@@ -7,17 +7,100 @@
 #define tam_tipo_reserva 100
 
 struct Sistema {
-    Passageiro **bancoPassageiros; // Array de ponteiros para Passageiro
-    int numPassageiros;
-    Tripulante **bancoTripulantes; // Array de ponteiros para Tripulante
-    int numTripulantes;
-    Voo **bancoVoos;         // Array de ponteiros para Voo
-    int numVoos;
-    Aeronave **bancoAeronaves; // Array de ponteiros para Aeronave
-    int numAeronaves;
+    Generico *bancoPassageiros; // Array de ponteiros para Passageiro
+    Generico *bancoTripulantes; // Array de ponteiros para Tripulante
+    Generico *bancoVoos;         // Array de ponteiros para Voo
+    Generico *bancoAeronaves; // Array de ponteiros para Aeronave
     Fila *filaReservas;      // Fila de reservas
     Data *dataAtual;         // Data atual do sistema
 };
+
+/**
+ * @brief Cria um novo Sistema, inicializando bancos vazios e uma fila
+ * @return Ponteiro para o Sistema (NULL em caso de erro)
+ */
+Sistema *criaSistema(){
+    Sistema *s = (Sistema *)malloc(sizeof(Sistema));
+    if (!s) return NULL;
+
+    s->bancoPassageiros = criaArray(imprimePassageiro, desalocaPassageiro, comparaPassageiro, verificaCPFPassageiro, getTamanhoPassageiro);
+    s->bancoTripulantes = criaArray(imprimeTripulante, desalocaTripulante, comparaTripulante, verificaCPFTripulante, getTamanhoTripulante);
+    s->bancoVoos = criaArray(imprimeVoo, desalocaVoo, comparaVoo, verificaCodigoVoo, NULL);
+    s->bancoAeronaves = criaArray(imprimeAeronave, desalocaAeronave, comparaAeronave, verificaCodigoAeronave, NULL);
+    s->filaReservas = criaFila();
+    s->dataAtual = criaData(10, 12, 2025); // Inicializa com data 10/12/2025
+    if (!s->filaReservas) {
+        free(s);
+        return NULL;
+    }
+
+    return s;
+}
+
+/*
+ * @brief Roda o sistema, processando todas as reservas na fila
+ * @param s Ponteiro para o Sistema
+ */
+void sistemaRoda(Sistema *sistema){
+    char comando;
+
+
+
+    while (scanf(" %c", &comando) == 1 && comando != 'F') {
+
+        if (comando == 'P') {
+            sistemaAdicionaPassageiro(sistema);
+        }else if (comando == 'T') {
+            sistemaAdicionaTripulante(sistema);
+        }else if (comando == 'A') {
+            sistemaAdicionaAeronave(sistema);
+        } else if (comando == 'V') {
+            sistemaAdicionaVoo(sistema);    
+        } else if (comando == 'R') {
+            sistemaAdicionaReserva(sistema);
+        } else if (comando == 'E') {
+
+            char acao[100];
+            scanf(" %[^\n]", acao); 
+
+            if (strcmp(acao, "PROCESSA RESERVAS") == 0) {
+                
+                processaReservasNaFila(sistemaGetFila(sistema), sistema, sistema);
+
+            } else if (strcmp(acao, "CONSULTA RESERVAS") == 0) {
+
+                printf("================================\n");
+                printf("===== Consulta Reservas ========\n");
+                printf("================================\n");
+                imprimeFila(sistemaGetFila(sistema));
+                printf("================================\n"); 
+
+            } else if (strcmp(acao, "RELATORIO") == 0) {
+
+                sistemaImprimeRelatorio(sistema); 
+
+            } else if (strcmp(acao, "PASSAGEIROS") == 0) {
+
+                sistemaImprimeBancoPassageiros(sistema); 
+
+            } else if (strcmp(acao, "TRIPULANTES") == 0) {
+
+                sistemaImprimeBancoTripulantes(sistema); 
+
+            } else if(strcmp(acao, "RANKING PASSAGEIROS") == 0) {
+
+                sistemaImprimeRankingPassageiros(sistema, sistemaQntdPassageiros(sistema));  
+            
+            } else if(strcmp(acao, "RANKING TRIPULANTES") == 0) {
+
+                sistemaImprimeRankingTripulantes(sistema);  
+            
+            }
+        }
+    }
+    return;
+}
+
 
 int sistemaProcessaReserva(void *ptr_sistema, void *ptr_voos, Reserva *reserva) {
     if (!ptr_sistema || !reserva) return 0;
@@ -88,31 +171,7 @@ float sistemaCalculaPrecoReserva(Sistema *s, Reserva *reserva, Passageiro *passa
     return precoBase;
 }
     
-/**
- * @brief Cria um novo Sistema, inicializando bancos vazios e uma fila
- * @return Ponteiro para o Sistema (NULL em caso de erro)
- */
-Sistema *criaSistema(){
-    Sistema *s = (Sistema *)malloc(sizeof(Sistema));
-    if (!s) return NULL;
 
-    s->bancoPassageiros = NULL;
-    s->numPassageiros = 0;
-    s->bancoTripulantes = NULL;
-    s->numTripulantes = 0;
-    s->bancoVoos = NULL;
-    s->numVoos = 0;
-    s->bancoAeronaves = NULL;
-    s->numAeronaves = 0;
-    s->filaReservas = criaFila();
-    s->dataAtual = criaData(10, 12, 2025); // Inicializa com data 10/12/2025
-    if (!s->filaReservas) {
-        free(s);
-        return NULL;
-    }
-
-    return s;
-}
 
 /**
  * @brief Desaloca o Sistema e todo o conteúdo (passageiros, tripulantes e fila)
@@ -120,31 +179,12 @@ Sistema *criaSistema(){
  */
 void desalocaSistema(Sistema *s){
     if (!s) return;
-
-    for (int i = 0; i < s->numPassageiros; i++) {
-        desalocaPassageiro(s->bancoPassageiros[i]);
-    }
-    free(s->bancoPassageiros);
-
-    for (int i = 0; i < s->numTripulantes; i++) {
-        desalocaTripulante(s->bancoTripulantes[i]);
-    }
-    free(s->bancoTripulantes);
-
-    for(int i = 0; i < s->numVoos; i++) {
-        desalocaVoo(s->bancoVoos[i]);
-    }
-    free(s->bancoVoos);
-
-    for(int i = 0; i < s->numAeronaves; i++) {
-        desalocaAeronave(s->bancoAeronaves[i]);
-    }
-    free(s->bancoAeronaves);    
-
+    desalocaArray(s->bancoPassageiros);
+    desalocaArray(s->bancoTripulantes);
+    desalocaArray(s->bancoVoos);
+    desalocaArray(s->bancoAeronaves);
     desalocaFila(s->filaReservas);
-    if(s->dataAtual){
     desalocaData(s->dataAtual);
-    }
     free(s);
 }
 
@@ -199,24 +239,16 @@ void sistemaAdicionaReserva(Sistema *s){
  */
 void sistemaAdicionaPassageiro(Sistema *s){
     if (!s) return;
-
-    /* Lê passageiro da entrada */
     Passageiro *p = lePassageiro();
     if (!p) return;
 
-    if (!sistemaVerificaDadosCadastradosPessoa(s, getCpfPassageiro(p))) {
-        desalocaPassageiro(p);
-        return;
-    }
-    Passageiro **tmp = (Passageiro **)realloc(s->bancoPassageiros, (s->numPassageiros + 1) * sizeof(Passageiro *));
-    if (!tmp) {
-        desalocaPassageiro(p);
+    // Verifica se CPF já existe usando a busca genérica
+    if (getItemVerificacaoArray(s->bancoPassageiros, getCpfPassageiro(p))) {
+        desalocaPassageiro(p); // Ignora se duplicado [cite: 35, 37]
         return;
     }
 
-    s->bancoPassageiros = tmp;
-    s->bancoPassageiros[s->numPassageiros] = p;
-    s->numPassageiros++;
+    adicionaItemArray(s->bancoPassageiros, p);
 }
 
 /**
@@ -225,33 +257,21 @@ void sistemaAdicionaPassageiro(Sistema *s){
  * @param s Ponteiro para o Sistema
  * @param v Ponteiro para Voo (alocado pelo chamador)
  */
-void sistemaAdicionaVoo(Sistema *s){ 
-    if (!s) return;
-
-    /* Lê voo da entrada */
-    Voo *v = leVoo(s->bancoAeronaves, s->numAeronaves);
+void sistemaAdicionaVoo(Sistema *s) {
+    Voo *v = leVoo();
     if (!v) return;
 
-    if(!sistemaVerificaDadosCadastradosVoo(s, getCodigoVoo(v))) {
+    if (getItemVerificacaoArray(s->bancoVoos, getCodigoVoo(v))) {
         desalocaVoo(v);
         return;
     }
-    if(sistemaVerificaDadosCadastradosAeronave(s, getCodigoAeronaveVoo(v))) {
+    if(getItemVerificacaoArray(s->bancoAeronaves, getCodigoAeronaveVoo(v)) == NULL){
         desalocaVoo(v);
         return;
     }
-    Voo **tmp = (Voo **)realloc(s->bancoVoos, (s->numVoos + 1) * sizeof(Voo *));
-    if (!tmp) {
-        desalocaVoo(v);
-        return;
-    }
-
-    s->bancoVoos = tmp;
-    s->bancoVoos[s->numVoos] = v;
-    s->numVoos++;
-
-;
+    adicionaItemArray(s->bancoVoos, v);
 }
+
 
 /*
  * @brief Adiciona uma Aeronave ao banco do Sistema. O Sistema passa a ser responsável
@@ -266,21 +286,12 @@ void sistemaAdicionaAeronave(Sistema *s){
     Aeronave *a = leAeronave();
     if (!a) return;
 
-    if(!sistemaVerificaDadosCadastradosAeronave(s, getCodigoAeronave(a))) {
+    if(getItemVerificacaoArray(s->bancoAeronaves, getCodigoAeronave(a))) {
         desalocaAeronave(a);
         return;
     }
-
-    Aeronave **tmp = (Aeronave **)realloc(s->bancoAeronaves, (s->numAeronaves + 1) * sizeof(Aeronave *));
-    if (!tmp) {
-        desalocaAeronave(a);
-        return;
-    }
-
-    s->bancoAeronaves = tmp;
-    s->bancoAeronaves[s->numAeronaves] = a;
-    s->numAeronaves++;
-}    
+    adicionaItemArray(s->bancoAeronaves, a);
+}
 
 /**
  * @brief Adiciona um Tripulante ao banco do Sistema. O Sistema passa a ser responsável
@@ -291,28 +302,21 @@ void sistemaAdicionaAeronave(Sistema *s){
  */
 void sistemaAdicionaTripulante(Sistema *s){
     if (!s) return;
-
-    /* Lê tripulante da entrada */
     Tripulante *t = leTripulante();
     if (!t) return;
 
-    if(!sistemaVerificaDadosCadastradosPessoa(s, getCPFTripulante(t))) {
-        desalocaTripulante(t);
+    if (getItemVerificacaoArray(s->bancoTripulantes, getCPFTripulante(t))) {
+        desalocaTripulante(t); 
         return;
     }
 
-    Tripulante **tmp = (Tripulante **)realloc(s->bancoTripulantes, (s->numTripulantes + 1) * sizeof(Tripulante *));
-    if (!tmp) {
-        desalocaTripulante(t);
-        return;
-    }
-
-    s->bancoTripulantes = tmp;
-    s->bancoTripulantes[s->numTripulantes] = t;
-    s->numTripulantes++;
+    adicionaItemArray(s->bancoTripulantes, t);
 }
 
-int sistemaVerificaDadosCadastradosPessoa(Sistema *s, char *cpfPassageiro){
+int sistemaVerificaDadosCadastradosPessoa(void *dado1, void *dado2){
+    Sistema *s = (Sistema *)dado1;
+    char *cpfPassageiro = (char *)dado2;
+
     if (!s || !cpfPassageiro) return 0;
 
     Passageiro *p = sistemaBuscaPassageiroPorCpf(s, cpfPassageiro);
@@ -321,7 +325,10 @@ int sistemaVerificaDadosCadastradosPessoa(Sistema *s, char *cpfPassageiro){
     return 0;
 }
 
-int sistemaVerificaDadosCadastradosAeronave(Sistema *s, char *codigoAeronave){
+int sistemaVerificaDadosCadastradosAeronave(void *dado1, void *dado2){
+    Sistema *s = (Sistema *)dado1;
+    char *codigoAeronave = (char *)dado2;
+
     if (!s || !codigoAeronave) return 0;
 
     Aeronave *a = sistemaBuscaAeronavePorCodigo(s, codigoAeronave);
@@ -344,7 +351,10 @@ int sistemaVerificaDadosCadastrados(Sistema *s, char *codigoVoo, char *cpfPassag
     return 1;
 }
 
-int sistemaVerificaDadosCadastradosVoo(Sistema *s, char *codigoVoo){
+int sistemaVerificaDadosCadastradosVoo(void *dado1, void *dado2){
+    Sistema *s = (Sistema *)dado1;
+    char *codigoVoo = (char *)dado2;
+
     if (!s || !codigoVoo) return 0;
 
     Voo *v = sistemaBuscaVooPorCodigo(s, codigoVoo);
@@ -354,23 +364,11 @@ int sistemaVerificaDadosCadastradosVoo(Sistema *s, char *codigoVoo){
 }
 
 Voo *sistemaBuscaVooPorCodigo(Sistema *s, char *codigoVoo){
-    if (!s || !codigoVoo) return NULL;
-    for (int i = 0; i < s->numVoos; i++) {
-        if (strcmp(getCodigoVoo(s->bancoVoos[i]), codigoVoo) == 0) {
-            return s->bancoVoos[i];
-        }
-    }
-    return NULL;
+    return (Voo *)getItemVerificacaoArray(s->bancoVoos, codigoVoo);
 }
 
 Aeronave *sistemaBuscaAeronavePorCodigo(Sistema *s, char *codigoAeronave){
-    if (!s || !codigoAeronave) return NULL;
-    for (int i = 0; i < s->numAeronaves; i++) {
-        if (strcmp(getCodigoAeronave(s->bancoAeronaves[i]), codigoAeronave) == 0) {
-            return s->bancoAeronaves[i];
-        }
-    }
-    return NULL;
+    return (Aeronave *)getItemVerificacaoArray(s->bancoAeronaves, codigoAeronave);
 }
 
 /**
@@ -379,14 +377,8 @@ Aeronave *sistemaBuscaAeronavePorCodigo(Sistema *s, char *codigoAeronave){
  * @param cpf CPF do passageiro
  * @return Ponteiro para Passageiro (interno) ou NULL se não encontrado
  */
-Passageiro *sistemaBuscaPassageiroPorCpf(Sistema *s,  char *cpf){
-    if (!s || !cpf) return NULL;
-    for (int i = 0; i < s->numPassageiros; i++) {
-        if (strcmp(getCPFPessoa(getPessoaPassageiro(s->bancoPassageiros[i])), cpf) == 0) {
-            return s->bancoPassageiros[i];
-        }
-    }
-    return NULL;
+Passageiro *sistemaBuscaPassageiroPorCpf(Sistema *s, char *cpf){
+    return (Passageiro *)getItemVerificacaoArray(s->bancoPassageiros, cpf);
 }
 
 /**
@@ -396,13 +388,7 @@ Passageiro *sistemaBuscaPassageiroPorCpf(Sistema *s,  char *cpf){
  * @return Ponteiro para Tripulante (interno) ou NULL se não encontrado
  */
 Tripulante *sistemaBuscaTripulantePorCpf(Sistema *s, char *cpf){
-    if (!s || !cpf) return NULL;
-    for (int i = 0; i < s->numTripulantes; i++) {
-        if (strcmp(getCPFTripulante(s->bancoTripulantes[i]), cpf) == 0) {
-            return s->bancoTripulantes[i];
-        }
-    }
-    return NULL;
+    return (Tripulante *)getItemVerificacaoArray(s->bancoTripulantes, cpf);
 }
 
 /**
@@ -453,9 +439,7 @@ void sistemaImprimeBancoPassageiros(Sistema *s){
     printf("===== Banco de Passageiros =====\n");
     printf("================================\n");
 
-    for (int i = 0; i < s->numPassageiros; i++) {
-        imprimePassageiro(s->bancoPassageiros[i]);
-    }
+    imprimeArray(s->bancoPassageiros);
     printf("================================\n");
 
 }
@@ -469,9 +453,7 @@ void sistemaImprimeBancoTripulantes(Sistema *s){
     printf("================================\n");
     printf("===== Banco de Tripulantes =====\n");
     printf("================================\n");
-    for (int i = 0; i < s->numTripulantes; i++) {
-        imprimeTripulante(s->bancoTripulantes[i]);
-    }
+    imprimeArray(s->bancoTripulantes);
     printf("================================\n");
 
 }
@@ -482,8 +464,7 @@ void sistemaImprimeBancoTripulantes(Sistema *s){
  * @return Quantidade de passageiros
  */
 int sistemaQntdPassageiros(Sistema *s){
-    if (!s) return 0;
-    return s->numPassageiros;
+    return getTamanhoArray(s->bancoPassageiros);
 }
 
 /**
@@ -492,8 +473,7 @@ int sistemaQntdPassageiros(Sistema *s){
  * @return Quantidade de tripulantes
  */
 int sistemaQntdTripulantes(Sistema *s){
-    if (!s) return 0;
-    return s->numTripulantes;
+    return getTamanhoArray(s->bancoTripulantes);
 }
 
 /**
@@ -501,18 +481,23 @@ int sistemaQntdTripulantes(Sistema *s){
  * @param s Ponteiro para o Sistema
  * @return Média de idade (int). Retorna 0 se não houver passageiros.
  */
-int sistemaMediaIdadePassageiros(Sistema *s){
-    if (!s || s->numPassageiros == 0) return 0;
+int sistemaMediaIdadePassageiros(Sistema *s) {
+    if (!s) return 0;
+
+    int tam = getTamanhoArray(s->bancoPassageiros);
+    if (tam == 0) return 0;
 
     int somaIdades = 0;
-    for (int i = 0; i < s->numPassageiros; i++) {
-        Pessoa *pessoa = getPessoaPassageiro(s->bancoPassageiros[i]);
+    for (int i = 0; i < tam; i++) {
+        Passageiro *p = (Passageiro *)getItemPosicaoArray(s->bancoPassageiros, i);
+        
+        Pessoa *pessoa = getPessoaPassageiro(p);
         Data *d = getDataNascimentoPessoa(pessoa);
-        int idade = calculaIdade(d, s->dataAtual);
-        somaIdades += idade;    
+        
+        somaIdades += calculaIdade(d, s->dataAtual);
     }
 
-    return somaIdades / s->numPassageiros;
+    return somaIdades / tam; // Retorna a parte inteira [cite: 293]
 }
 
 /**
@@ -521,14 +506,17 @@ int sistemaMediaIdadePassageiros(Sistema *s){
  * @return Parte inteira da média de horas trabalhadas (int). Retorna 0 se não houver tripulantes.
  */
 int sistemaMediaHorasTrabalhadasTripulantes(Sistema *s){
-    if (!s || s->numTripulantes == 0) return 0;
+    if (!s) return 0;
 
+    int tam = getTamanhoArray(s->bancoTripulantes);
+    if (tam == 0) return 0;
     int somaHoras = 0;
-    for (int i = 0; i < s->numTripulantes; i++) {
-        somaHoras += getHorasTripulante(s->bancoTripulantes[i]);
+    for (int i = 0; i < tam; i++) {
+        Tripulante *t = (Tripulante *)getItemPosicaoArray(s->bancoTripulantes, i);
+        somaHoras += getHorasTripulante(t);
     }
 
-    return somaHoras / s->numTripulantes;
+    return somaHoras / tam;
 }
 
 /**
@@ -569,8 +557,7 @@ int sistemaQntdReservas(Sistema *s){
  * @return Quantidade de voos
  */
 int sistemaQntdVoos(Sistema *s){
-    if( !s) return 0;
-    return s->numVoos;
+    return getTamanhoArray(s->bancoVoos);
 }
 
 /**
@@ -579,8 +566,7 @@ int sistemaQntdVoos(Sistema *s){
  * @return Quantidade de aeronaves
  */
 int sistemaQntdAeronaves(Sistema *s){
-    if( !s) return 0;
-    return s->numAeronaves;
+    return getTamanhoArray(s->bancoAeronaves);
 }
 
 /**
@@ -590,7 +576,12 @@ int sistemaQntdAeronaves(Sistema *s){
  */
 void sistemaImprimeRankingPassageiros(Sistema *s, int topN){
     if (!s) return;
-    passageiroImprimeRankingPorReservas(s->bancoPassageiros, s->numPassageiros, topN);
+    ordenaArray(s->bancoPassageiros); 
+    printf("================================\n");
+    printf("===== Ranking Passageiros =====\n");
+    printf("================================\n");
+    imprimeArray(s->bancoPassageiros);
+    printf("================================\n");
 }
 
 /**
@@ -600,7 +591,12 @@ void sistemaImprimeRankingPassageiros(Sistema *s, int topN){
  */
 void sistemaImprimeRankingTripulantes(Sistema *s){
     if (!s) return;
-    tripulanteImprimeRankingPorHoras(s->bancoTripulantes, s->numTripulantes);
+    ordenaArray(s->bancoTripulantes); 
+    printf("================================\n");
+    printf("===== Ranking Tripulantes =====\n");
+    printf("================================\n");
+    imprimeArray(s->bancoTripulantes); 
+    printf("================================\n");
 }
 void sistemaImprimeRelatorio(Sistema *s){
     printf("=============================\n");

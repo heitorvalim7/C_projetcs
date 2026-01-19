@@ -1,0 +1,6 @@
+==45251== Memcheck, a memory error detector
+==45251== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==45251== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==45251== Command: Resultados/heitor/completo/prog Resultados/heitor/completo/Casos/4
+==45251== Parent PID: 45250
+==45251== 
