@@ -1,0 +1,10 @@
+main.c: In function ‘main’:
+main.c:47:24: warning: format ‘%[^
+   ’ expects a matching ‘char *’ argument [-Wformat=]
+   47 |             scanf(" %[^\n]\n");
+      |                     ~~~^~
+      |                        |
+      |                        char *
+main.c:20:10: warning: unused variable ‘buffer’ [-Wunused-variable]
+   20 |     char buffer[100];
+      |          ^~~~~~
