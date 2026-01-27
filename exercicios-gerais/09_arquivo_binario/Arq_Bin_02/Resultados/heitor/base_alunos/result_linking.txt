@@ -1,0 +1,6 @@
+/usr/bin/ld: Resultados/heitor/base_alunos/main.o: in function `main':
+main.c:(.text+0x1d): undefined reference to `CriarBaseAlunos'
+/usr/bin/ld: main.c:(.text+0x4f): undefined reference to `LerBaseAlunos'
+/usr/bin/ld: main.c:(.text+0x5b): undefined reference to `GetCoeficienteRendimentoMedioBaseAlunos'
+/usr/bin/ld: main.c:(.text+0x8d): undefined reference to `DestruirBaseAlunos'
+collect2: error: ld returned 1 exit status

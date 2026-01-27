@@ -1,0 +1,15 @@
+==44213== Memcheck, a memory error detector
+==44213== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==44213== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==44213== Command: Resultados/heitor/aluno/prog Resultados/heitor/aluno/Casos/3
+==44213== Parent PID: 44212
+==44213== 
+==44213== 
+==44213== HEAP SUMMARY:
+==44213==     in use at exit: 0 bytes in 0 blocks
+==44213==   total heap usage: 13 allocs, 13 frees, 14,400 bytes allocated
+==44213== 
+==44213== All heap blocks were freed -- no leaks are possible
+==44213== 
+==44213== For lists of detected and suppressed errors, rerun with: -s
+==44213== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

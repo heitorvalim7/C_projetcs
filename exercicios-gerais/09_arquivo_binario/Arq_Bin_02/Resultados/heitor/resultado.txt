@@ -1,0 +1,21 @@
+Arquivos Esperados Corretos: 3 de 5
+Pastas Compiladas Corretamente: 2 de 4 
+Pastas Linkadas Corretamente: 1 de 4
+Teste main
+  - Resultados corretos: 0 de 4
+  - Valgrinds corretos: 0 de 4
+Nota de heitor para o teste main: 0
+Teste completo
+  - Resultados corretos: 0 de 4
+  - Valgrinds corretos: 0 de 4
+Nota de heitor para o teste completo: 0
+Teste base_alunos
+  - Resultados corretos: 0 de 4
+  - Valgrinds corretos: 0 de 4
+Nota de heitor para o teste base_alunos: 0
+Teste aluno
+  - Resultados corretos: 4 de 4
+  - Valgrinds corretos: 4 de 4
+Nota de heitor para o teste aluno: 2.50
+Nota de heitor: 0+(0)+(2.50)+(0)+(0)
+Nota de heitor: 2.50
